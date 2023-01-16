@@ -1,0 +1,436 @@
+   #alternate alternate
+
+   Jump to content
+   Subscribe
+   (BUTTON) Login (BUTTON)
+   (BUTTON)
+   (BUTTON)
+   Subscribe
+   (BUTTON) Login (BUTTON)
+     * News
+          + UK
+          + World
+          + US
+          + UK Politics
+          + Brexit
+          + Tech
+          + Science
+          + Education
+          + Health
+          + Business
+          + InFact
+     * Independent TV
+     * Climate
+          + SGI
+          + COP26
+          + Climate News
+          + Climate Voices
+          + Climate Life
+          + InFact Climate
+     * Sport
+          + Football
+          + Formula 1
+          + Boxing
+          + Rugby Union
+          + Cricket
+          + MMA
+     * Voices
+          + Stop the Illegal Wildlife Trade
+          + Editorials
+          + Letters
+          + Shaparak Khorsandi
+          + Mary Dejevsky
+          + Mark Steel
+          + Janet Street-Porter
+          + John Rentoul
+          + Sean O’Grady
+          + Tom Peck
+     * Culture
+          + Film
+          + Music
+          + TV & Radio
+          + Books
+          + Art
+          + Photography
+          + Theatre & Dance
+          + Streaming Hub
+          + Games
+          + Geoffrey Macnab
+          + Clarisse Loughrey
+          + Ed Cumming
+          + Crosswords & puzzles
+     * Premium
+          + John Rentoul
+          + Mary Dejevsky
+          + Chris Blackhurst
+          + Marie Le Conte
+     * indy/life
+          + Travel
+          + Women
+          + Fashion & beauty
+          + Food & Drink
+          + Dating & relationships
+          + Health & fitness
+          + Royal Family
+          + Tech
+          + Money
+          + Design & home
+          + Motoring
+     * IndyBest
+          + Home & garden
+          + Kids
+          + Books
+          + Travel & outdoors
+          + Fashion & Beauty
+          + Food & Drink
+          + Tech
+          + Sports & Fitness
+          + Competitions
+          + Deals
+          + Compare
+          + Christmas
+          + Boxing Day Sales
+     * indy100
+     * My Independent
+          + Most commented
+          + Ask Me Anything
+          + Virtual Events
+          + Newsletters
+          + Competitions
+     * Vouchers
+          + Samsung
+          + Very
+          + MADE
+          + Oliver Bonas
+          + eBay
+          + TUI
+          + Nike
+          + ASOS
+          + Footasylum
+          + Size
+          + AO.com
+          + Gousto
+          + Vodafone
+          + Gym King
+          + Audible
+          + Cyber Week
+     * Compare
+          + Best Broadband Deals
+          + BT Broadband Deals
+          + Virgin Media Broadband Deals
+          + NOW Broadband Deals
+          + All Broadband Providers
+          + Mobile phone deals
+          + SIM Only Deals
+          + iPhone Deals
+          + Best UK Mobile Networks
+
+   (BUTTON) (BUTTON)
+   (BUTTON) (BUTTON)
+     * UK Edition
+     * US Edition
+     * Asia Edition
+     * Edición en Español
+
+   {{#items}}
+     * {{#edition}}{{/edition}}{{title}}{{#children}} {{/children}}
+       {{#children}}
+        {{{children}}}
+       {{/children}}
+       {{/items}}
+
+   NewsWorldAmericas
+
+Anti-vax ‘vigilantes’ urge Covid patients to avoid hospitals and try home
+cures
+
+   ‘Vigilante medicine’, where traditional medicine is shunned in favour
+   of bizarre online advice, is spreading
+   Bevan Hurley
+   In New York
+   Friday 24 September 2021 21:46
+   [spinner_on_black.gif] Comments
+   (BUTTON)
+   (BUTTON)
+
+Article bookmarked
+
+   Find your bookmarks in your Independent Premium section, under my
+   profile
+   [ ] Don't show me this message again
+   ✕
+   ✕
+   Close
+   Two hosts of ‘The View’ test positive for Covid-19 ahead of interview
+   with Kamala Harris
+   Leer en Español
+
+   Anti-vax groups are telling Covid patients to avoid hospitals and
+   extract sick family members from intensive care units, as part of an
+   intensifying disinformation campaign being spread via Facebook and
+   encrypted messaging apps.
+
+   The groups are fuelling conspiracy theories that doctors are stopping
+   unvaccinated patients from receiving supposed miracle cures such as
+   ivermectin or even deliberately trying to harm them, according to posts
+   viewed by NBC News.
+
+   Doctors treating Covid patients say they are increasingly having to
+   deal with assaults and threats of violence from anti-vaxxers, with
+   incidents reported in Texas, Georgia, Idaho and Massachusetts in recent
+   weeks.
+
+Recommended
+
+     * ‘Please get your vaccine’: YouTuber hits out at anti-vaxx movement
+       as he dies of Covid
+     * Gisele Bundchen defends Doutzen Kroes’ anti-vaxx post
+     * Anti-vaxx US radio host who mocked AIDS victims dies of Covid-19
+       complications
+
+   According to posts viewed by NBC News, members of anti-vax Facebook
+   groups are offering instructions on how to get family members removed
+   from hospital by insisting they be transferred to hospice care, and
+   have recorded videos of apparently successful extractions that have
+   later gone viral.
+
+   They convince members the only way to treat patients suffering from
+   severe Covi symptoms is to self-medicate with ivermectin, a horse
+   dewormer which has become popular in anti-vax circles.
+
+   When that doesn’t work they recommend potentially even more dangerous
+   treatments such as gargling iodine or taking hydrogen peroxide, forcing
+   the the Asthma and Allergy Foundation of America to warn against
+   nebulising or inhaling the chemical earlier this week.
+
+     DO NOT put hydrogen peroxide into your nebulizer and breathe it in.
+     This is dangerous. It is not a way to prevent nor treat COVID-19.
+     Visit https://t.co/HuKfjT5HLq for information about asthma,
+     allergies, and COVID-19. pic.twitter.com/PT8ZaAFbUi
+     — AAFA National (@AAFANational) September 21, 2021
+
+   The more dangerous at-home treatments are part of what anti-vaxxers
+   call the “protocol”, which is being shared through Facebook and on the
+   encrypted messaging app Telegram.
+
+   The practice of pushing unproven treatments at home rather than get the
+   Covid vaccine or seek medical misinformation is being described as
+   “vigilante medicine” by Harvard Medical School physician Aditi
+   Nerurkar.
+
+   Dr Nerurkar described “vigilante medicine” as “medicine being practised
+   by laypeople who are reading groups created by other laypeople in echo
+   chambers and silos that, likely, someone in the anti-vax movement is
+   profiting from.
+
+   Doctors are increasingly fearful for their safety after a wave of
+   violent incidents reported in intensive care units across the US.
+
+   A nurse in Newton, Massachusetts, told WHDH an out-of-control patient
+   tried to gouge her eye out with his key. She said she was suffering
+   from post-traumatic stress disorder from dealing with violent Covid
+   patients.
+
+   In a separate incident at the same hospital, five nurses were attacked
+   by one patient.
+
+   In San Antonio, Texas, staff have been “cursed at, screamed at,
+   threatened with bodily harm and even had knives pulled on them”, Jane
+   McCurley, chief nursing executive for Methodist Healthcare System, told
+   a press conference last week.
+
+Recommended
+
+     * Anti-vaxxers storm Burger King in New York City
+     * Model sparks outrage by revealing she’s forced to wear fat suit for
+       plus-sized ads
+     * Woman survives five days trapped in freezing car wreck by licking
+       rainwater
+
+   Doctors in Boise, Idaho, called police after the family member of a
+   Covid patient threatened staff after they refused to treat the man with
+   ivermectin.
+
+   Social media companies have attempted to crack down on Covid
+   misinformation being spread on their platforms, but anti-vax groups are
+   getting around the restrictions by using innocuous-sounding codewords
+   such as “dance parties”.
+
+Register for free to continue reading
+
+   Registration is a free and easy way to support our truly independent
+   journalism
+
+   By registering, you will also enjoy limited access to Premium articles,
+   exclusive newsletters, commenting, and virtual events with our leading
+   journalists
+   ____________________Email
+   Please enter a valid email
+   Please enter a valid email
+   ____________________Password
+   Must be at least 6 characters, include an upper and lower case
+   character and a number
+   Must be at least 6 characters, include an upper and lower case
+   character and a number
+   Must be at least 6 characters, include an upper and lower case
+   character and a number
+   ____________________First name
+   Please enter your first name
+   Special characters aren’t allowed
+   Please enter a name between 1 and 40 characters
+   ____________________Last name
+   Please enter your last name
+   Special characters aren’t allowed
+   Please enter a name between 1 and 40 characters
+   [Select your year of birth]
+   You must be over 18 years old to register
+   You must be over 18 years old to register
+   Year of birth
+   [ ] I would like to be emailed about offers, events and updates from
+   The Independent.
+   Read our Privacy notice
+   Opt-out-policy
+   You can opt-out at any time by signing in to your account to manage
+   your preferences. Each email has a link to unsubscribe.
+   {{userRef}}_________
+
+   {{#verifyErrors}} {{message}} {{/verifyErrors}} {{^verifyErrors}}
+   {{message}} {{/verifyErrors}}
+
+   (BUTTON) Register (BUTTON) I'll try later
+
+   Already have an account? sign in
+
+   By clicking ‘Register’ you confirm that your data has been entered
+   correctly and you have read and agree to our Terms of use, Cookie
+   policy and Privacy notice.
+
+   This site is protected by reCAPTCHA and the Google Privacy
+   policy and Terms of service apply.
+
+More about
+
+   anti-vaxxersvigilantesConspiracy TheoriesHospitalsCovid
+
+Join our new commenting forum
+
+   Join thought-provoking conversations, follow other Independent readers
+   and see their replies
+   [spinner_on_white.gif] Comments
+
+1/1Anti-vax ‘vigilantes’ urge Covid patients to avoid hospitals
+
+   (BUTTON)
+
+Anti-vax ‘vigilantes’ urge Covid patients to avoid hospitals
+
+   Anti-vaxxers are instructing people how to get family members out of
+   hospital
+
+   AFP via Getty Images
+   (BUTTON)
+   (BUTTON) ✕
+
+Subscribe to Independent Premium to bookmark this article
+
+   Want to bookmark your favourite articles and stories to read or
+   reference later? Start your Independent Premium subscription today.
+   (BUTTON) Subscribe
+   Already subscribed? Log in
+
+Most popular
+
+Popular videos
+
+   Trending
+
+   Featured
+
+Sponsored Features
+
+   Voucher Codes
+   Very Discount Code
+   Extra 20% off all sale items at Very
+   Booking Com Discounts
+   Early 2022 savings: 15% or more Booking.com discount for New Year
+   Debenhams Discount Code
+   Only £2 for delivery with this Debenhams discount code
+   Dell Discount Codes
+   Over 20% off laptops & desktops with this Dell discount
+   Samsung Discount Codes
+   Save up to 25% off everything + free delivery - Samsung student
+   discount
+   (BUTTON)
+
+     * Get in touch
+          + Contact us
+          + Jobs
+          +
+     * Our Products
+          + Subscribe
+          + Register
+          + Newsletters
+          + Donate
+          + Install our apps
+          + Archive
+     * Other publications
+          + International editions
+          + Independent en Español
+          + Independent Arabia
+          + Independent Turkish
+          + Independent Persian
+          + Independent Urdu
+          + Evening Standard
+          + Novaya Gazeta
+     * Extras
+          + All topics
+          + Voucher codes
+          + Compare
+          + Independent Advertising
+          + Syndication
+          + Working at The Independent
+     * Legal
+          + Code of conduct and complaints
+          + Contributors
+          + Cookie policy
+          + Donations Terms & Conditions
+          + Privacy notice
+          + Privacy settings
+          + User policies
+          + Modern Slavery Act
+
+Thank you for registering
+
+   Please refresh the page or navigate to another page on the site to be
+   automatically logged in
+
+   (BUTTON)
+
+   (BUTTON) ✕
+
+   Log in
+   ____________________Email address
+   ____________________Password
+   Email and password don't match
+   [ ] Keep me logged in
+   (BUTTON) Submit
+   Forgotten your password?
+
+   New to The Independent?
+   Register
+
+   Or if you would prefer:
+   (BUTTON) SIGN IN WITH GOOGLE
+
+   Want an ad-free experience?
+   View offers
+   This site is protected by reCAPTCHA and the Google Privacy
+   notice and Terms of service apply.
+
+   Hi {{indy.fullName}}
+     * My Independent Premium
+     * Account details
+     * Help centre
+     * Logout
+
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-5XT7NPD

@@ -1,0 +1,942 @@
+
+   Jump to content
+   Subscribe
+   (BUTTON) Login (BUTTON)
+   (BUTTON)
+   (BUTTON)
+   Subscribe
+   (BUTTON) Login (BUTTON)
+     * News
+          + UK
+          + World
+          + US
+          + UK Politics
+          + Brexit
+          + Tech
+          + Science
+          + Education
+          + Health
+          + Business
+          + InFact
+     * Independent TV
+     * Climate
+          + SGI
+          + COP26
+          + Climate News
+          + Climate Voices
+          + Climate Life
+          + InFact Climate
+     * Sport
+          + Football
+          + Formula 1
+          + Boxing
+          + Rugby Union
+          + Cricket
+          + MMA
+     * Voices
+          + Stop the Illegal Wildlife Trade
+          + Editorials
+          + Letters
+          + Shaparak Khorsandi
+          + Mary Dejevsky
+          + Mark Steel
+          + Janet Street-Porter
+          + John Rentoul
+          + Sean O’Grady
+          + Tom Peck
+     * Culture
+          + Film
+          + Music
+          + TV & Radio
+          + Books
+          + Art
+          + Photography
+          + Theatre & Dance
+          + Streaming Hub
+          + Games
+          + Geoffrey Macnab
+          + Clarisse Loughrey
+          + Ed Cumming
+          + Crosswords & puzzles
+     * Premium
+          + John Rentoul
+          + Mary Dejevsky
+          + Chris Blackhurst
+          + Marie Le Conte
+     * indy/life
+          + Travel
+          + Women
+          + Fashion & beauty
+          + Food & Drink
+          + Dating & relationships
+          + Health & fitness
+          + Royal Family
+          + Tech
+          + Money
+          + Design & home
+          + Motoring
+     * IndyBest
+          + Home & garden
+          + Kids
+          + Books
+          + Travel & outdoors
+          + Fashion & Beauty
+          + Food & Drink
+          + Tech
+          + Sports & Fitness
+          + Competitions
+          + Deals
+          + Compare
+          + Christmas
+          + Boxing Day Sales
+     * indy100
+     * My Independent
+          + Most commented
+          + Ask Me Anything
+          + Virtual Events
+          + Newsletters
+          + Competitions
+     * Vouchers
+          + Samsung
+          + Very
+          + MADE
+          + Oliver Bonas
+          + eBay
+          + TUI
+          + Nike
+          + ASOS
+          + Footasylum
+          + Size
+          + AO.com
+          + Gousto
+          + Vodafone
+          + Gym King
+          + Audible
+          + Cyber Week
+     * Compare
+          + Best Broadband Deals
+          + BT Broadband Deals
+          + Virgin Media Broadband Deals
+          + NOW Broadband Deals
+          + All Broadband Providers
+          + Mobile phone deals
+          + SIM Only Deals
+          + iPhone Deals
+          + Best UK Mobile Networks
+
+   (BUTTON) (BUTTON)
+   (BUTTON) (BUTTON)
+     * UK Edition
+     * US Edition
+     * Asia Edition
+     * Edición en Español
+
+   {{#items}}
+     * {{#edition}}{{/edition}}{{title}}{{#children}} {{/children}}
+       {{#children}}
+        {{{children}}}
+       {{/children}}
+       {{/items}}
+
+   NewsUKUK Politics
+
+Coronavirus vaccine: Labour calls for emergency censorship laws for anti-vax
+content
+
+   Shadow culture secretary says government should ‘stamp out’
+   misinformation
+   Jon Stone
+   Policy Correspondent
+   Sunday 15 November 2020 10:52
+   [spinner_on_black.gif] Comments
+   (BUTTON)
+   (BUTTON)
+
+Article bookmarked
+
+   Find your bookmarks in your Independent Premium section, under my
+   profile
+   [ ] Don't show me this message again
+   ✕
+   ✕
+   Close
+   Coronavirus in numbers
+
+   The government should bring forward emergency legislation to “stamp
+   out” dangerous anti-vax misinformation ahead of the roll-out of the
+   Covid-19 vaccine, Labour has said.
+
+   The shadow culture secretary, Jo Stevens, and the shadow health
+   secretary, Jonathan Ashworth, have written to the government warning
+   that “our historic strength in vaccine uptake must not be taken for
+   granted” as the prospect of a treatment for the virus looms.
+
+   Keir Starmer’s shadow ministers are calling for financial and criminal
+   penalties for social media companies that fail to censor posts
+   promoting anti-vaccination content, which they note is rampant on those
+   platforms.
+
+   The opposition ministers say anti-vaccination groups with almost
+   100,000 users can be found within seconds of logging on to Facebook.
+
+   An analysis by a think tank, the Centre for Countering Digital Hate,
+   suggests that misinformation and disinformation about vaccines is also
+   spreading on newer forms of social media, such as TikTok, where the
+   hashtag #vaccinesaredangerous has almost 800,000 views.
+
+Recommended
+
+     * Covid vaccine fraud is ‘emerging threat’ to UK, NCA says
+     * Brexit won’t disrupt Covid vaccine delivery, government says
+
+   In addition, dozens of anti-vaccination petitions have been posted on
+   the government’s website, some with almost 200,000 signatures.
+
+   “The government has a pitiful track record on taking action against
+   online platforms that are facilitating the spread of disinformation,”
+   said Ms Stevens.
+
+   “It has been clear for years that this is a widespread and growing
+   problem and the government knows, because Labour has been warning them
+   for some time, that it poses a real threat to the take-up of the
+   vaccine.
+
+   “This is literally a matter of life and death, and anyone who is
+   dissuaded from being vaccinated because of this is one person too
+   many.”
+
+   In the joint letter, the two shadow secretaries of state said that
+   “groups flagged months ago to social media companies remain active”,
+   despite commitments by the government and industry.
+
+   Last week, social media giants agreed a package of measures with
+   ministers to tackle anti-vaccine misinformation. Facebook, Twitter and
+   Google promised to “step up work with public health bodies to promote
+   factual and reliable messages” and committed to “swifter responses to
+   flagged content”.
+
+   The digital secretary, Oliver Dowden, said that “Covid disinformation
+   is dangerous and could cost lives”, and that there was "much more that
+   can be done" to counter it.
+
+   However, the government has stopped short of saying such misinformation
+   should necessarily be removed, instead raising the prospect that it
+   could instead be de-monetised, given that “making money from this
+   dangerous content would be wrong”.
+
+   Imran Ahmed, a former Labour adviser who runs the Centre for Countering
+   Digital Hate, said: “Despite big tech's promises, Google is still
+   funding anti-vax misinformation websites by placing advertisements on
+   them, while Facebook, Instagram, Twitter and YouTube give well-known
+   anti-vaxxers a platform to spread dangerous conspiracy theories and
+   lies to millions of users.
+
+World news in pictures
+
+   Show all 50
+
+1/50World news in pictures
+
+   (BUTTON)
+
+World news in pictures
+
+30 September 2020
+
+   Pope Francis prays with priests at the end of a limited public audience
+   at the San Damaso courtyard in The Vatican
+
+   AFP via Getty
+
+World news in pictures
+
+29 September 2020
+
+   A girl's silhouette is seen from behind a fabric in a tent along a
+   beach by Beit Lahia in the northern Gaza Strip
+
+   AFP via Getty
+
+World news in pictures
+
+28 September 2020
+
+   A Chinese woman takes a photo of herself in front of a flower display
+   dedicated to frontline health care workers during the COVID-19 pandemic
+   in Beijing, China. China will celebrate national day marking the
+   founding of the People's Republic of China on October 1st
+
+   Getty
+
+World news in pictures
+
+27 September 2020
+
+   The Glass Mountain Inn burns as the Glass Fire moves through the area
+   in St. Helena, California. The fast moving Glass fire has burned over
+   1,000 acres and has destroyed homes
+
+   Getty
+
+World news in pictures
+
+26 September 2020
+
+   A villager along with a child offers prayers next to a carcass of a
+   wild elephant that officials say was electrocuted in Rani Reserve
+   Forest on the outskirts of Guwahati, India
+
+   AFP via Getty
+
+World news in pictures
+
+25 September 2020
+
+   The casket of late Supreme Court Justice Ruth Bader Ginsburg is seen in
+   Statuary Hall in the US Capitol to lie in state in Washington, DC
+
+   AFP via Getty
+
+World news in pictures
+
+24 September 2020
+
+   An anti-government protester holds up an image of a pro-democracy
+   commemorative plaque at a rally outside Thailand's parliament in
+   Bangkok, as activists gathered to demand a new constitution
+
+   AFP via Getty
+
+World news in pictures
+
+23 September 2020
+
+   A whale stranded on a beach in Macquarie Harbour on the rugged west
+   coast of Tasmania, as hundreds of pilot whales have died in a mass
+   stranding in southern Australia despite efforts to save them, with
+   rescuers racing to free a few dozen survivors
+
+   The Mercury/AFP via Getty
+
+World news in pictures
+
+22 September 2020
+
+   State civil employee candidates wearing face masks and shields take a
+   test in Surabaya
+
+   AFP via Getty
+
+World news in pictures
+
+21 September 2020
+
+   A man sweeps at the Taj Mahal monument on the day of its reopening
+   after being closed for more than six months due to the coronavirus
+   pandemic
+
+   AP
+
+World news in pictures
+
+20 September 2020
+
+   A deer looks for food in a burnt area, caused by the Bobcat fire, in
+   Pearblossom, California
+
+   EPA
+
+World news in pictures
+
+19 September 2020
+
+   Anti-government protesters hold their mobile phones aloft as they take
+   part in a pro-democracy rally in Bangkok. Tens of thousands of
+   pro-democracy protesters massed close to Thailand's royal palace, in a
+   huge rally calling for PM Prayut Chan-O-Cha to step down and demanding
+   reforms to the monarchy
+
+   AFP via Getty
+
+World news in pictures
+
+18 September 2020
+
+   Supporters of Iraqi Shi'ite cleric Moqtada al-Sadr maintain social
+   distancing as they attend Friday prayers after the coronavirus disease
+   restrictions were eased, in Kufa mosque, near Najaf, Iraq
+
+   Reuters
+
+World news in pictures
+
+17 September 2020
+
+   A protester climbs on The Triumph of the Republic at 'the Place de la
+   Nation' as thousands of protesters take part in a demonstration during
+   a national day strike called by labor unions asking for better salary
+   and against jobs cut in Paris, France
+
+   EPA
+
+World news in pictures
+
+16 September 2020
+
+   A fire raging near the Lazzaretto of Ancona in Italy. The huge blaze
+   broke out overnight at the port of Ancona. Firefighters have brought
+   the fire under control but they expected to keep working through the
+   day
+
+   EPA
+
+World news in pictures
+
+15 September 2020
+
+   Russian opposition leader Alexei Navalny posing for a selfie with his
+   family at Berlin's Charite hospital. In an Instagram post he said he
+   could now breathe independently following his suspected poisoning last
+   month
+
+   Alexei Navalny/Instagram/AFP
+
+World news in pictures
+
+14 September 2020
+
+   Japan's Prime Minister Shinzo Abe, Chief Cabinet Secretary Yoshihide
+   Suga, former Defense Minister Shigeru Ishiba and former Foreign
+   Minister Fumio Kishida celebrate after Suga was elected as new head of
+   the ruling party at the Liberal Democratic Party's leadership election
+   in Tokyo
+
+   Reuters
+
+World news in pictures
+
+13 September 2020
+
+   A man stands behind a burning barricade during the fifth straight day
+   of protests against police brutality in Bogota
+
+   AFP via Getty
+
+World news in pictures
+
+12 September 2020
+
+   Police officers block and detain protesters during an opposition rally
+   to protest the official presidential election results in Minsk,
+   Belarus. Daily protests calling for the authoritarian president's
+   resignation are now in their second month
+
+   AP
+
+World news in pictures
+
+11 September 2020
+
+   Members of 'Omnium Cultural' celebrate the 20th 'Festa per la
+   llibertat' ('Fiesta for the freedom') to mark the Day of Catalonia in
+   Barcelona. Omnion Cultural fights for the independence of Catalonia
+
+   EPA
+
+World news in pictures
+
+10 September 2020
+
+   The Moria refugee camp, two days after Greece's biggest migrant camp,
+   was destroyed by fire. Thousands of asylum seekers on the island of
+   Lesbos are now homeless
+
+   AFP via Getty
+
+World news in pictures
+
+9 September 2020
+
+   Pope Francis takes off his face mask as he arrives by car to hold a
+   limited public audience at the San Damaso courtyard in The Vatican
+
+   AFP via Getty
+
+World news in pictures
+
+8 September 2020
+
+   A home is engulfed in flames during the "Creek Fire" in the Tollhouse
+   area of California
+
+   AFP via Getty
+
+World news in pictures
+
+7 September 2020
+
+   A couple take photos along a sea wall of the waves brought by Typhoon
+   Haishen in the eastern port city of Sokcho
+
+   AFP via Getty
+
+World news in pictures
+
+6 September 2020
+
+   Novak Djokovic and a tournament official tends to a linesperson who was
+   struck with a ball by Djokovic during his match against Pablo Carreno
+   Busta at the US Open
+
+   USA Today Sports/Reuters
+
+World news in pictures
+
+5 September 2020
+
+   Protesters confront police at the Shrine of Remembrance in Melbourne,
+   Australia, during an anti-lockdown rally
+
+   AFP via Getty
+
+World news in pictures
+
+4 September 2020
+
+   A woman looks on from a rooftop as rescue workers dig through the
+   rubble of a damaged building in Beirut. A search began for possible
+   survivors after a scanner detected a pulse one month after the
+   mega-blast at the adjacent port
+
+   AFP via Getty
+
+World news in pictures
+
+3 September 2020
+
+   A full moon next to the Virgen del Panecillo statue in Quito, Ecuador
+
+   EPA
+
+World news in pictures
+
+2 September 2020
+
+   A Palestinian woman reacts as Israeli forces demolish her animal shed
+   near Hebron in the Israeli-occupied West Bank
+
+   Reuters
+
+World news in pictures
+
+1 September 2020
+
+   Students protest against presidential elections results in Minsk
+
+   TUT.BY/AFP via Getty
+
+World news in pictures
+
+31 August 2020
+
+   The pack rides during the 3rd stage of the Tour de France between Nice
+   and Sisteron
+
+   AFP via Getty
+
+World news in pictures
+
+30 August 2020
+
+   Law enforcement officers block a street during a rally of opposition
+   supporters protesting against presidential election results in Minsk,
+   Belarus
+
+   Reuters
+
+World news in pictures
+
+29 August 2020
+
+   A woman holding a placard reading "Stop Censorship - Yes to the Freedom
+   of Expression" shouts in a megaphone during a protest against the
+   mandatory wearing of face masks in Paris. Masks, which were already
+   compulsory on public transport, in enclosed public spaces, and outdoors
+   in Paris in certain high-congestion areas around tourist sites, were
+   made mandatory outdoors citywide on August 28 to fight the rising
+   coronavirus infections
+
+   AFP via Getty
+
+World news in pictures
+
+28 August 2020
+
+   Japanese Prime Minister Shinzo Abe bows to the national flag at the
+   start of a press conference at the prime minister official residence in
+   Tokyo. Abe announced he will resign over health problems, in a
+   bombshell development that kicks off a leadership contest in the
+   world's third-largest economy
+
+   AFP via Getty
+
+World news in pictures
+
+27 August 2020
+
+   Residents take cover behind a tree trunk from rubber bullets fired by
+   South African Police Service (SAPS) in Eldorado Park, near
+   Johannesburg, during a protest by community members after a 16-year old
+   boy was reported dead
+
+   AFP via Getty
+
+World news in pictures
+
+26 August 2020
+
+   People scatter rose petals on a statue of Mother Teresa marking her
+   110th birth anniversary in Ahmedabad
+
+   AFP via Getty
+
+World news in pictures
+
+25 August 2020
+
+   An aerial view shows beach-goers standing on salt formations in the
+   Dead Sea near Ein Bokeq, Israel
+
+   Reuters
+
+World news in pictures
+
+24 August 2020
+
+   Health workers use a fingertip pulse oximeter and check the body
+   temperature of a fisherwoman inside the Dharavi slum during a
+   door-to-door Covid-19 coronavirus screening in Mumbai
+
+   AFP via Getty
+
+World news in pictures
+
+23 August 2020
+
+   People carry an idol of the Hindu god Ganesh, the deity of prosperity,
+   to immerse it off the coast of the Arabian sea during the Ganesh
+   Chaturthi festival in Mumbai, India
+
+   Reuters
+
+World news in pictures
+
+22 August 2020
+
+   Firefighters watch as flames from the LNU Lightning Complex fires
+   approach a home in Napa County, California
+
+   AP
+
+World news in pictures
+
+21 August 2020
+
+   Members of the Israeli security forces arrest a Palestinian
+   demonstrator during a rally to protest against Israel's plan to annex
+   parts of the occupied West Bank
+
+   AFP via Getty
+
+World news in pictures
+
+20 August 2020
+
+   A man pushes his bicycle through a deserted road after prohibitory
+   orders were imposed by district officials for a week to contain the
+   spread of the Covid-19 in Kathmandu
+
+   AFP via Getty
+
+World news in pictures
+
+19 August 2020
+
+   A car burns while parked at a residence in Vacaville, California.
+   Dozens of fires are burning out of control throughout Northern
+   California as fire resources are spread thin
+
+   AFP via Getty
+
+World news in pictures
+
+18 August 2020
+
+   Students use their mobile phones as flashlights at an anti-government
+   rally at Mahidol University in Nakhon Pathom. Thailand has seen
+   near-daily protests in recent weeks by students demanding the
+   resignation of Prime Minister Prayut Chan-O-Cha
+
+   AFP via Getty
+
+World news in pictures
+
+17 August 2020
+
+   Members of the Kayapo tribe block the BR163 highway during a protest
+   outside Novo Progresso in Para state, Brazil. Indigenous protesters
+   blocked a major transamazonian highway to protest against the lack of
+   governmental support during the COVID-19 novel coronavirus pandemic and
+   illegal deforestation in and around their territories
+
+   AFP via Getty
+
+World news in pictures
+
+16 August 2020
+
+   Lightning forks over the San Francisco-Oakland Bay Bridge as a storm
+   passes over Oakland
+
+   AP
+
+World news in pictures
+
+15 August 2020
+
+   Belarus opposition supporters gather near the Pushkinskaya metro
+   station where Alexander Taraikovsky, a 34-year-old protester died on
+   August 10, during their protest rally in central Minsk
+
+   AFP via Getty
+
+World news in pictures
+
+14 August 2020
+
+   AlphaTauri's driver Daniil Kvyat takes part in the second practice
+   session at the Circuit de Catalunya in Montmelo near Barcelona ahead of
+   the Spanish F1 Grand Prix
+
+   AFP via Getty
+
+World news in pictures
+
+13 August 2020
+
+   Soldiers of the Brazilian Armed Forces during a disinfection of the
+   Christ The Redeemer statue at the Corcovado mountain prior to the
+   opening of the touristic attraction in Rio
+
+   AFP via Getty
+
+World news in pictures
+
+12 August 2020
+
+   Young elephant bulls tussle playfully on World Elephant Day at the
+   Amboseli National Park in Kenya
+
+   AFP via Getty
+   (BUTTON)
+
+   "Throughout the coronavirus pandemic, big tech has made bold claims of
+   intent, but failed to follow through with effective action. It is vital
+   that there are sanctions when social media companies fail to fulfil
+   their duty of care to users and society at large. The government must
+   stop falling for big tech’s excuses, and introduce financial and
+   criminal penalties for failures that lead to serious harm.
+
+   “We have all done our bit to contain coronavirus. It's beyond time for
+   social media companies and regulators to do their bit too.”
+
+   Free speech campaigners however warned that the approach could be
+   counterproductive and “push the argument underground”.
+
+   “In the midst of a public health emergency ensuring that there is
+   accurate information about treatments and vaccines is key,”  Ruth
+   Smeeth, chief executive of Index On Censorship told The Independent.
+
+   "However we can’t ignore that people may challenge and push back
+   against the scientific facts. Surely the answer isn’t to ban the
+   anti-vaxxers but to explain why they are wrong on every available
+   platform.
+
+   "Demonstrate why the science is right rather then push the argument
+   underground where rational argument will be lost."
+
+Register for free to continue reading
+
+   Registration is a free and easy way to support our truly independent
+   journalism
+
+   By registering, you will also enjoy limited access to Premium articles,
+   exclusive newsletters, commenting, and virtual events with our leading
+   journalists
+   ____________________Email
+   Please enter a valid email
+   Please enter a valid email
+   ____________________Password
+   Must be at least 6 characters, include an upper and lower case
+   character and a number
+   Must be at least 6 characters, include an upper and lower case
+   character and a number
+   Must be at least 6 characters, include an upper and lower case
+   character and a number
+   ____________________First name
+   Please enter your first name
+   Special characters aren’t allowed
+   Please enter a name between 1 and 40 characters
+   ____________________Last name
+   Please enter your last name
+   Special characters aren’t allowed
+   Please enter a name between 1 and 40 characters
+   [Select your year of birth]
+   You must be over 18 years old to register
+   You must be over 18 years old to register
+   Year of birth
+   [ ] I would like to be emailed about offers, events and updates from
+   The Independent.
+   Read our Privacy notice
+   Opt-out-policy
+   You can opt-out at any time by signing in to your account to manage
+   your preferences. Each email has a link to unsubscribe.
+   {{userRef}}_________
+
+   {{#verifyErrors}} {{message}} {{/verifyErrors}} {{^verifyErrors}}
+   {{message}} {{/verifyErrors}}
+
+   (BUTTON) Register (BUTTON) I'll try later
+
+   Already have an account? sign in
+
+   By clicking ‘Register’ you confirm that your data has been entered
+   correctly and you have read and agree to our Terms of use, Cookie
+   policy and Privacy notice.
+
+   This site is protected by reCAPTCHA and the Google Privacy
+   policy and Terms of service apply.
+
+More about
+
+   coronavirus vaccinemisinformationLabourJonathan AshworthJo Stevens
+
+Join our new commenting forum
+
+   Join thought-provoking conversations, follow other Independent readers
+   and see their replies
+   [spinner_on_white.gif] Comments
+
+1/1Labour calls for emergency censorship laws for anti-vax content
+
+   (BUTTON)
+
+Labour calls for emergency censorship laws for anti-vax content
+
+   Misinformation about vaccination has become widespread on social media
+
+   Getty Images
+   (BUTTON)
+   (BUTTON) ✕
+
+Subscribe to Independent Premium to bookmark this article
+
+   Want to bookmark your favourite articles and stories to read or
+   reference later? Start your Independent Premium subscription today.
+   (BUTTON) Subscribe
+   Already subscribed? Log in
+
+Most popular
+
+Popular videos
+
+   Trending
+
+   Featured
+
+Sponsored Features
+
+   Voucher Codes
+   Very Discount Code
+   Extra 20% off all sale items at Very
+   Booking Com Discounts
+   Early 2022 savings: 15% or more Booking.com discount for New Year
+   Debenhams Discount Code
+   Only £2 for delivery with this Debenhams discount code
+   ao.com Discount Code
+   25% off coffee machines, tumble dryers & microwaves: ao discount 2021
+   MADE Discount Codes
+   £30 off £300+ orders - MADE discount code
+   (BUTTON)
+     * Get in touch
+          + Contact us
+          + Jobs
+          +
+     * Our Products
+          + Subscribe
+          + Register
+          + Newsletters
+          + Donate
+          + Install our apps
+          + Archive
+     * Other publications
+          + International editions
+          + Independent en Español
+          + Independent Arabia
+          + Independent Turkish
+          + Independent Persian
+          + Independent Urdu
+          + Evening Standard
+          + Novaya Gazeta
+     * Extras
+          + All topics
+          + Voucher codes
+          + Compare
+          + Independent Advertising
+          + Syndication
+          + Working at The Independent
+     * Legal
+          + Code of conduct and complaints
+          + Contributors
+          + Cookie policy
+          + Donations Terms & Conditions
+          + Privacy notice
+          + Privacy settings
+          + User policies
+          + Modern Slavery Act
+
+Thank you for registering
+
+   Please refresh the page or navigate to another page on the site to be
+   automatically logged in
+
+   (BUTTON)
+
+   (BUTTON) ✕
+
+   Log in
+   ____________________Email address
+   ____________________Password
+   Email and password don't match
+   [ ] Keep me logged in
+   (BUTTON) Submit
+   Forgotten your password?
+
+   New to The Independent?
+   Register
+
+   Or if you would prefer:
+   (BUTTON) SIGN IN WITH GOOGLE
+
+   Want an ad-free experience?
+   View offers
+   This site is protected by reCAPTCHA and the Google Privacy
+   notice and Terms of service apply.
+
+   Hi {{indy.fullName}}
+     * My Independent Premium
+     * Account details
+     * Help centre
+     * Logout
+
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-5XT7NPD

@@ -1,0 +1,1959 @@
+
+
+
+<script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+<script>
+    Kakao.init('be1fe8de256cc1f225fd51b3bb6098e4');
+
+function katalkShare(){
+	Kakao.Link.sendDefault({
+		objectType: "feed",
+		content:{
+			title: '″백신패스 받으려고″…50대 의사, 가짜 팔에 접종 받으려다 덜미',
+			imageUrl: 'https://img.mbn.co.kr/filewww/news/2021/12/08/163892106361aff367b750e.png',
+			link: {
+				mobileWebUrl: 'https://m.mbn.co.kr/news/world/4654838',
+				webUrl: 'https://mbn.co.kr/news/world/4654838'
+			}
+		},
+		buttons :[
+			{
+				title: "기사 보기",
+				link: {
+					mobileWebUrl: 'https://m.mbn.co.kr/news/world/4654838',
+					webUrl: 'https://mbn.co.kr/news/world/4654838'
+				}
+			}
+		]
+	});
+}
+</script><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ko">
+
+<!--------------------- Header --------------------->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta NAME="keywords" content="매일방송, MBN, 매일경제TV, 매경티브이, 매일경제, 디자인, 헬스, 증권, 부동산, 종합편성채널, 원아시아, one asia, 종편" />
+    <meta NAME="descript-xion" content="매일방송, MBN, 매일경제TV,매경티브이, 매일경제, 뉴스채널, 원아시아, one asia, news, vod,  종합편성채널 MBN 입니다., 종편" />
+    <meta name="naver-site-verification" content="9862157d649ed9c0e4097807a2dad1684cc27379"/>
+    
+    <meta data-rh="true" http-equiv="Content-Language" content="ko" />
+    <meta data-rh="true" itemprop="inLanguage" content="ko" />
+    <meta data-rh="true" property="article:published" itemprop="datePublished dateCreated" content="2021-12-08T09:02:00+09:00" />
+    <meta data-rh="true" property="article:modified" itemprop="dateModified" content="2021-12-08T09:11:00+09:00" />
+    <meta data-rh="true" property="article:section" itemprop="articleSection" content="world" />
+    <meta property="article:author"  content="" />
+    
+    <!-- PLAYER JS -->
+	<!-- videojs -->
+    <link href="//www.mbn.co.kr/player/videojs/playerjs/video-js.css" rel="stylesheet" />
+    <script src="//www.mbn.co.kr/player/videojs/playerjs/video.js"></script>
+    <!-- hls 품질 선택 -->
+    <link href="//www.mbn.co.kr/player/videojs/playerjs/videojs-resolution-switcher-v7.css" rel="stylesheet" />
+    <script src="//www.mbn.co.kr/player/videojs/playerjs/videojs-resolution-switcher-v7.min.js"></script>
+    <!-- 상당 정보 타이틀 -->
+    <link href="//www.mbn.co.kr/player/videojs/playerjs/videojs-dock.css" rel="stylesheet" />
+    <script src="//www.mbn.co.kr/player/videojs/playerjs/videojs-dock.min.js"></script>
+    <!-- 영상 끝나고 추천영상 -->
+    <link href="//www.mbn.co.kr/player/videojs/playerjs/videojs.suggestedVideoEndcap.css" rel="stylesheet" />
+    <script src="//www.mbn.co.kr/player/videojs/playerjs/videojs.suggestedVideoEndcap.min.js"></script>
+    <!-- JWT 인코딩 관련 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/hmac-sha256.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/enc-base64-min.js"></script>
+    <!-- 카카오API -->
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <!-- thumbnail -->
+    <script src="//www.mbn.co.kr/player/videojs/playerjs/videojs.thumbnails.min.js"></script>
+    <link href="//www.mbn.co.kr/player/videojs/playerjs/videojs.thumbnails.css" rel="stylesheet" />
+    <!-- JQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <!-- 디자인 최종 적용 -->
+    <link href="//www.mbn.co.kr/player/videojs/playerjs/ats_player.css?1641129049" rel="stylesheet" />
+    <!-- 기능 최종 적용 -->
+    <script src="//www.mbn.co.kr/player/videojs/playerjs/player_start.min.js"></script>
+    <!-- PLAYER JS END -->
+    
+    <!-- 페이스북 메타태그 추가 2018-05-04 -->
+    <meta property="fb:pages" content="228531267157379">
+    
+    <!-- 타불라 서비스 metaTag 추가 2018-03-05
+    <meta data-rh="true" name="articleid" itemprop="identifier" content="MBN-4654838" />
+    <meta data-rh="true" name="description" itemprop="description" content=" 백신 거부자인 이탈리아의 50세 남성이 코로나19 백신 증명인 '그린패스'를 받고자 가짜 팔에 백신을 맞으..." />
+    <meta data-rh="true" name="image" itemprop="image" content="http://img.mbn.co.kr/filewww/news/2021/12/08/163892106361aff367b750e.png" />
+    <meta data-rh="true" name="byl" content="" />
+    <meta data-rh="true" name="thumbnail" itemprop="thumbnailUrl" content="http://img.mbn.co.kr/filewww/news/2021/12/08/163892106361aff367b750e_s161.png" />
+    <meta data-rh="true" name="pdate" content="20211208" />
+    -->
+    
+    <!-- 데이블 메타태그 추가 20200803 -->
+    <meta property="dable:item_id" content="4654838">
+    <meta property="og:title" content="″백신패스 받으려고″…50대 의사, 가짜 팔에 접종 받으려다 덜미" />
+    <meta property="dable:author" content="">
+    <meta property="article:section" content="world"> 
+    <meta property="article:published_time" content="2021-12-08T09:02:00+09:00">
+    
+    <meta property="og:site_name" content="매일방송" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta data-rh="true" property="og:url" content="http://www.mbn.co.kr/news/world/4654838"/>
+    <meta data-rh="true" property="og:type" content="article" />
+    <meta data-rh="true" property="og:title" content="″백신패스 받으려고″…50대 의사, 가짜 팔에 접종 받으려다 덜미" />
+    <meta data-rh="true" property="og:image" content="http://img.mbn.co.kr/filewww/news/2021/12/08/163892106361aff367b750e.png" />
+        <meta data-rh="true" property="og:description" content=" 백신 거부자인 이탈리아의 50세 남성이 코로나19 백신 증명인 '그린패스'를 받고자 가짜 팔에 백신을 맞으..." />
+   
+       
+    <meta data-rh="true" property="twitter:url" content="http://www.mbn.co.kr/news/world/4654838" />
+    <meta data-rh="true" property="twitter:title" content="″백신패스 받으려고″…50대 의사, 가짜 팔에 접종 받으려다 덜미" />
+    <meta data-rh="true" property="twitter:description" content=" 백신 거부자인 이탈리아의 50세 남성이 코로나19 백신 증명인 '그린패스'를 받고자 가짜 팔에 백신을 맞으..." />
+    <meta data-rh="true" property="twitter:image" content="http://img.mbn.co.kr/filewww/news/2021/12/08/163892106361aff367b750e.png" />
+    <meta data-rh="true" property="twitter:image:alt" content="" />
+    <meta data-rh="true" property="twitter:card" content="photo" />
+    <meta name="twitter:site" content="@mk_sokbo" />
+    
+    <meta data-rh="true" name="CG" content="news"/>
+    <meta data-rh="true" name="SCG" content=""/>
+    <meta data-rh="true" name="PT" content="article"/>
+    <meta data-rh="true" name="url" itemprop="url" content="https://mbn.co.kr/news/world/4654838"/>
+    <meta data-rh="true" name="msapplication-starturl" content="https://www.mbn.co.kr/news/"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    
+    <!-- 2020 01 02 바꿈-->
+    <meta property="fb:app_id" content="2429950797257259" />
+    <meta name="classification" content="world">
+    
+    <!-- 로봇 메타태그 -->
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index, follow" />
+    
+    <title>"백신패스 받으려고"…50대 의사, 가짜 팔에 접종 받으려다 덜미</title>
+    <meta name="title" content="″백신패스 받으려고″…50대 의사, 가짜 팔에 접종 받으려다 덜미" />
+<!--    <meta data-rh="true" name="description" itemprop="description" content="--><!--">-->
+    <meta name="news_keywords" content="매일방송, MBN, 뉴스, 기사, 국제">
+    <meta name="keywords" content="매일방송, MBN, 뉴스, 보도, 속보, 시사, 정치, 사회, 경제, 산업, 국제, 증권, 부동산, 문화, 스포츠, 연예, 생활, 건강, 지역">
+
+    <link rel="amphtml" href="https://m.mbn.co.kr/news-amp/4654838" />
+    <link rel="canonical" href="https://mbn.co.kr/news/world/4654838" />
+    <link rel="alternate" media="only screen and ( max-width: 640px)" href="https://m.mbn.co.kr/news/world/4654838" />
+    
+    <link rel="shortcut icon" type="image/x-icon" href="//img.mbn.co.kr/etc/images/banner/main_banner/mbn.ico"/>
+    <link rel="stylesheet" type="text/css" href="//www.mbn.co.kr/script/css/new/view2020.css?v=20210203" />
+<!--    <link rel="stylesheet" type="text/css" href="--><!--/script/css/new/view2020.css?v=20200520" />-->
+	
+	<!-- 2020 01 15 추가 -->
+    <meta name="dc.title" lang="ko" content="″백신패스 받으려고″…50대 의사, 가짜 팔에 접종 받으려다 덜미" />
+    <meta name="dc.subject" content="매일방송, MBN, 뉴스, 보도, 속보, 시사, 정치, 사회, 경제, 산업, 국제, 증권, 부동산, 문화, 스포츠, 연예, 생활, 건강, 지역" />
+    <meta name="dc.description" content="백신 거부자인 이탈리아의 50세 남성이 코로나19 백신 증명인 '그린패스'를 받고자 가짜 팔에 백신을 맞으려다 들통났습니다. 해당 남성은 현지 의료진으로 밝혀져 논란이 커지고 있습니다.현지 시간 5일 이탈리아 종합지 라 레푸블리카에 따르면, 치과 의사 귀도 루소(57)는 가짜 팔에 백신을 맞으려다 사기죄 혐의로 조사를 받고 있습니다. 현지에서 '안티백..." />
+    <meta name="dc.language" content="ko" />
+    <meta name="dc.date" content="2021-12-08" />
+    <meta name="dc.type" content="Text" />
+    <meta name="dc.format" scheme="dcterms.IMT" content="text/html" />
+
+    <!-- 2020 01 14 추가 -->
+    <link rel="dns-prefetch" href="//mk.co.kr">
+    <link rel="dns-prefetch" href="//mbn.co.kr">
+    <link rel="dns-prefetch" href="//mbnmoney.mbn.co.kr/">
+    <link rel="dns-prefetch" href="//luxmen.mk.co.kr/">
+    <link rel="dns-prefetch" href="//www.mk.co.kr/news/special-edition/citylife/">
+    <link rel="dns-prefetch" href="//gfw.mk.co.kr/">
+    <link rel="dns-prefetch" href="//m-print.mk.co.kr/kr/">
+    <link rel="dns-prefetch" href="//www.raythem.com/">
+
+    <script type="text/javascript" src="//www.mbn.co.kr/script/js/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="//www.mbn.co.kr/script/js/jquery.cycle.all.latest.js"></script>
+    <script type='text/javascript' src="//www.mbn.co.kr/script/js/jquery-ui-1.8.2.custom.min.js"></script>
+    <script type="text/javascript" src="//www.mbn.co.kr/script/js/beta.fix.js"></script>
+    <script type="text/javascript" src="//www.mbn.co.kr/script/js/ark.news.js"></script>
+
+    <script type="text/javascript" src="//www.mbn.co.kr/script/js/player/embedVideoPlayer_2019.js"></script>
+    <script type="text/javascript" src="//www.mbn.co.kr/script/js/common.func.js?v=20141021"></script>
+    <!-- <script type="text/javascript" src="//www.mbn.co.kr/script/js/common.news.v4.js"></script> -->
+    <script type="text/javascript" src="//www.mbn.co.kr/script/js/common.main.v4.1.js?v=20211028"></script>
+    <script type="text/javascript" src="//www.mbn.co.kr/script/js/floater.js"></script>
+    <script type="text/javascript" src="//www.mbn.co.kr/script/js/gnb_search.js"></script>
+    <script type="text/javascript" src="//www.mbn.co.kr/script/js/blazy.min.js"></script>
+
+    <script type="text/javascript" src="//www.mbn.co.kr/mbn_html/newsmain_data.js"></script>
+    <script type="text/javascript" src="//www.mbn.co.kr/mbn_html/newsview_data.js"></script>
+    <script type="text/javascript" src="//www.mbn.co.kr/mbn_html/newsview_contents_gen_v2.js"></script>
+    <script type="text/javascript" src="//www.mbn.co.kr/mbn_html/newsview_aside_gen_v2.js"></script>
+    
+    <!--화제 뉴스 MBNSTAR-->
+    <script type="text/javascript" charset="euc-kr" src="//star.mbn.co.kr/inc/mbnstar_main1.js"></script>
+    
+        
+    <!-- google DPF -->
+    <script type='text/javascript'>(function() {var useSSL = 'https:' == document.location.protocol;var src = (useSSL ? 'https:' : 'http:') +'//www.googletagservices.com/tag/js/gpt.js';document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');})();</script>
+    <script type='text/javascript'>
+        /***** newsView DFP define ****/
+
+        // 2016.06.21 : 화제 뉴스 내 1줄 텍스트 광고 추가
+        googletag.defineSlot('/7450/MBN_Website/mbn_news/world', [[1,1], 'fluid'], 'google_dfp_MC_1x1').addService(googletag.pubads()).setTargeting('position', 'MC').setTargeting('ad_area_type', 'pc_text_1line-in_topic_news-mbn');
+
+        googletag.defineSlot('/7450/MBN_Website/mbn_news/world', [[728,90],[970,90],[970,250],'fluid'], 'google_dfp_TC_728x90,970x90,970x250').addService(googletag.pubads()).setTargeting('position', 'TC');
+
+        /* DFP Slot info (1) */
+        googletag.defineSlot('/7450/MBN_Website/mbn_news/world', [[300,250],[300,450],[300,600], 'fluid'], 'google_dfp_MR_300x250,300x450,300x600').addService(googletag.pubads()).setTargeting('position', 'MR');
+        /* DFP Slot info (2) */
+        googletag.defineSlot('/7450/MBN_Website/mbn_news/world', [250,250], 'google_dfp_MC_250x250').addService(googletag.pubads()).setTargeting('position', 'MC');
+        /* DFP Slot info (3) */
+        googletag.defineSlot('/7450/MBN_Website/mbn_news/world', [[300,250],[300,265]], 'google_dfp_BR_300x250,300x265').addService(googletag.pubads()).setTargeting('position', 'BR');
+        /* DFP Slot info (4) */
+        googletag.defineSlot('/7450/MBN_Website/mbn_news/world', [468,61], 'google_dfp_BC_468x61').addService(googletag.pubads()).setTargeting('position', 'MC');
+        /* DFP Slot info (5) */
+        googletag.defineSlot('/7450/MBN_Website/mbn_news/world', [301,250], 'google_dfp_BL_301x250').addService(googletag.pubads()).setTargeting('position', 'BL');
+        /* DFP Slot info (6) */
+        googletag.defineSlot('/7450/MBN_Website/mbn_news/world', [302,250], 'google_dfp_BC_302x250').addService(googletag.pubads()).setTargeting('position', 'BC');
+        /* DFP Slot info (7) */
+        googletag.defineSlot('/7450/MBN_Website/mbn_news/world', [[301,250],[300,266]], 'google_dfp_BR_300x250,300x266').addService(googletag.pubads()).setTargeting('position', 'BR');
+        /***** // newsView DFP define ****/
+
+        var category_id='mbn00008';
+        var article_num='4654838';
+        var publish_date='2021/1208';
+        var journalist='';
+        var domainStr='null';var tmp1=document.location.href.split('/');if(tmp1.length>2) {domainStr=tmp1[2];}
+        var refererStr='null';var tmp2=document.referrer.split('/');if(tmp2.length>2) {refererStr=tmp2[2];}
+        var mbn_login='off';
+        var login_type='unkown';
+        googletag.pubads().setTargeting('category_id',category_id);
+        googletag.pubads().setTargeting('article_num',article_num);
+        googletag.pubads().setTargeting('publish_date',publish_date);
+        googletag.pubads().setTargeting('journalist',journalist);
+        googletag.pubads().setTargeting('domain',domainStr);
+        googletag.pubads().setTargeting('referer',refererStr);
+        googletag.pubads().setTargeting('mbn_login',mbn_login);
+        googletag.pubads().setTargeting('login_type',login_type);
+                googletag.pubads().collapseEmptyDivs();
+        //googletag.pubads().enableSyncRendering();
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+    </script>
+
+    <!-- google analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];  _gaq.push(["_setAccount", "UA-24427716-1"]);  _gaq.push(["_trackPageview"]);  (function() {    var ga = document.createElement("script"); ga.type = "text/javascript"; ga.async = true;    ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s);  })();
+    </script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157802399-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-157802399-1');
+    </script>
+    
+    <!-- for taboola 170905
+    <script type="text/javascript">
+      window._taboola = window._taboola || [];
+      _taboola.push({article:'auto'});
+      !function (e, f, u, i) {
+        if (!document.getElementById(i)){
+          e.async = 1;
+          e.src = u;
+          e.id = i;
+          f.parentNode.insertBefore(e, f);
+        }
+      }(document.createElement('script'),
+      document.getElementsByTagName('script')[0],
+      '//cdn.taboola.com/libtrc/maekyung-mk/loader.js',
+      'tb_loader_script');
+      if(window.performance && typeof window.performance.mark == 'function')
+        {window.performance.mark('tbl_ic');}
+    </script>
+    // for taboola 170905 -->
+
+    <!-- 타불라 2018-03-06
+    <script type="text/javascript">
+        window._taboola = window._taboola || [];
+        _taboola.push({article:'auto'});
+        !function (e, f, u, i) {
+            if (!document.getElementById(i)){
+                e.async = 1;
+                e.src = u;
+                e.id = i;
+                f.parentNode.insertBefore(e, f);
+            }
+        }(document.createElement('script'),
+            document.getElementsByTagName('script')[0],
+            '//cdn.taboola.com/libtrc/maekyung-mbn-desktop/loader.js',
+            'tb_loader_script');
+        if(window.performance && typeof window.performance.mark == 'function')
+        {window.performance.mark('tbl_ic');}
+    </script>
+    //타불라 2018-03-06 -->
+    
+    <!-- 20200803 Dable 스크립트 시작 / 문의 support@dable.io -->
+    <script>
+    (function(d,a,b,l,e,_) {
+    d[b]=d[b]||function(){(d[b].q=d[b].q||[]).push(arguments)};e=a.createElement(l);
+    e.async=1;e.charset='utf-8';e.src='//static.dable.io/dist/plugin.min.js';
+    _=a.getElementsByTagName(l)[0];_.parentNode.insertBefore(e,_);
+    })(window,document,'dable','script');
+    dable('setService', 'mbn.co.kr');
+    dable('sendLogOnce');
+    </script>
+    <!-- Dable 스크립트 종료 / 문의 support@dable.io -->
+    
+    <script>(function (w, d, s, l, i, c) {var f
+            = d.getElementsByTagName(s)[0], j = d.createElement(s); j.async
+            = true; j.src = 'https://sdk.bigin.io/v1/bigin.sdk.js'; var u =
+            navigator.userAgent.toLowerCase(), h = {projectID: i,
+            currencyCode: c}; if ((u.indexOf('msie') !== -1) &&
+            parseInt(u.split('msie')[1]) < 9) { var r = setInterval(function () { if
+        (w[l] !== undefined) { clearInterval(r); w[l].config(h);}},50);}
+        else { j.onload = function () { w[l].config(h) }; }
+            f.parentNode.insertBefore(j, f); })(window, document, 'script',
+            'bigin', 'CP8V0VGGDO-X', 'KRW'); 
+    </script>
+    
+    <!-- google web vitals -->    
+    <script type="module">
+    import {getCLS, getFID, getLCP} from 'https://unpkg.com/web-vitals@0.2.1/dist/web-vitals.es5.min.js?module';
+    
+    function sendToGoogleAnalytics({name, delta, id}) {
+        ga('send', 'event', {
+            eventCategory: 'Web Vitals',
+            eventAction: name,
+            eventValue: Math.round(name === 'CLS' ? delta * 1000 : delta),
+            eventLabel: id,
+            nonInteraction: true,
+        });
+    }
+      
+    </script>
+</head>
+<!---------------------// Header --------------------->
+
+<!-- /////////////////// cookie /////////////////// -->
+<!-- Promise IE 지원 -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script> 
+<!-- Promise IE 지원 -->
+<script type="text/javascript" src="//www.mbn.co.kr/script/js/cookie.js"></script>
+<script>
+	var mbn_m_url = 'https://m.mbn.co.kr/news/world/4654838';
+	mbnDomainCheck();
+
+		function jsonp(uri) {
+ 	    return new Promise(function(resolve, reject) {
+ 	        var id = '_' + Math.round(10000 * Math.random());
+ 	        var callbackName = 'jsonp_callback_' + id;
+ 	        window[callbackName] = function(data) {
+ 	            delete window[callbackName];
+ 	            var ele = document.getElementById(id);
+ 	            ele.parentNode.removeChild(ele);
+ 	            resolve(data);
+ 	        }
+
+ 	        var src = uri + '&callback=' + callbackName;
+ 	        var script = document.createElement('script');
+ 	        script.src = src;
+ 	        script.id = id;
+ 	        script.addEventListener('error', reject);
+ 	        (document.getElementsByTagName('head')[0] || document.body || document.documentElement).appendChild(script)
+ 	    });
+ 	}	
+    	
+    
+function mbnDomainCheck(){
+	if (window.location.href.indexOf("mbn.mk.co.kr") != -1){
+	    var url = '//www.mbn.co.kr/process/agent_cookieCheck.php?callback=?';	    jsonp(url).then(function(data){
+			
+	    	if(data.cookie == "Y") {
+	    		
+				//console.log('json cookie : Y');
+				setCookie('mbnPcVersionBrowserMove', 'Y');
+				//모바일 이동 버튼 추가
+				if(mobileChk() == "M"){
+					
+					setTimeout(function() {
+						mobileMoveBtn();
+					}, 500);
+				}
+			} else {
+				//console.log('cookie : 없거나 N  || 값: '+data.cookie);
+				deleteCookie('mbnPcVersionBrowserMove');
+				if(mobileChk()!=false){
+				                        if (new URLSearchParams(location.search).get('uagent') == 'm') {
+                        //console.log(new URLSearchParams(location.search).get('uagent'));
+                    } else {
+                        location.href = mbn_m_url;
+                    }
+					// location.href=mbn_m_url;
+				}
+			}
+	    	
+    	}); 
+
+	   
+			}else{
+		//모바일 이동 버튼 추가
+		if(mobileChk()!=false){
+			mobileMoveBtn();
+		}
+		//모바일 이동
+		mbnAgentMove();
+	}
+}
+
+function mbnAgentMove(){
+	//console.log("check : "+mobileChk());
+	if( mobileChk() == true ) { //모바일이고 mbn 캐시가 Y가 아니라면(chk == true) 모바일로 돌려보냄
+                if (new URLSearchParams(location.search).get('uagent') == 'm') {
+            //console.log(new URLSearchParams(location.search).get('uagent'));
+        } else {
+            location.href = mbn_m_url;
+        }
+		// location.href=mbn_m_url;
+    }else if(mobileChk() != "M"){
+		//캐시 반영이 되었을 경우를 대비하여 삭제 
+    	$("#mobileChk").remove();
+    }
+}
+
+function mobileMoveBtn(){
+	var img_node = document.createElement("img");
+	img_node.setAttribute('src', '//www.mbn.co.kr/images/btn_mobile.gif');	
+	img_node.setAttribute('style', 'padding-bottom: 20px; padding-right: 330px;');
+
+	var a_node = document.createElement("a");
+	a_node.setAttribute('href', 'javascript:void(0);');
+	a_node.setAttribute('style', 'float: right;');
+	a_node.setAttribute('onclick', 'goMobile()');
+	a_node.setAttribute('id', 'mbnMoveImg');
+	
+	a_node.appendChild(img_node);
+
+	try{
+		setTimeout(function() {
+			document.getElementById("mbnPcVer").appendChild(a_node);
+		}, 500);
+	}catch(e){
+		document.getElementById("footer_newsmain").appendChild(a_node);
+	}
+}
+	
+function goMobile(){
+	if (window.location.href.indexOf("mbn.mk.co.kr") != -1){
+
+		deleteCookie("mbnPcVersionBrowserMove");
+		var url = '//www.mbn.co.kr/process/agent_cookieDelete.php?url='+mbn_m_url;	    location.href=url;
+
+	}else{
+		deleteCookie("mbnPcVersionBrowserMove");
+		document.location.replace(mbn_m_url);
+	}
+	
+	//deleteCookie("mbnPcVersionBrowserMove");
+	//document.location.replace(mbn_m_url);
+}
+
+/*
+ * vod/index 에서 url 분기되어서 변경
+ */
+function moveUrlCheck(){
+	var c_url = "";
+	var str_href = window.location.href;
+	var str_index = str_href.indexOf("culture");
+
+	if(str_href.indexOf("culture") != -1){
+		var strUrlArr = str_href.split('?');
+		c_url = strUrlArr[0] + "?culture";
+
+	}else if(str_href.indexOf("drama") != -1){
+		var strUrlArr = str_href.split('?');
+		c_url = strUrlArr[0] + "?drama";
+		
+		
+	}else if(str_href.indexOf("enter") != -1){
+		var strUrlArr = str_href.split('?');
+		c_url = strUrlArr[0] + "?enter";
+		
+	}
+	//uagent=m 없애기 위해 ...
+	history.pushState(null, null, c_url);
+}
+</script><!-- /////////////////// cookie /////////////////// -->
+
+<body>
+<a href="#container" title="본문 바로가기" class="skip">본문 바로가기</a>
+<div id="wrap">
+
+    <!-- GNB메뉴 -->
+    		<!-- fix header 추가 -->
+    <div class="fix_h_box" style="display: none;">
+    	<div class="box_in">
+        	<span class="logo"><a href="//www.mbn.co.kr/"><img src="//img.mbn.co.kr/newmbn/news_2020/logo_fix_mbn.jpg"></a></span>
+        	<span class="art_tit">"백신패스 받으려고"…50대 의사, 가짜 팔에 접종 받으려다 덜미</span>
+        	<ul class="sns">
+            	<!-- <li>
+            		<a href="javascript:void(0)">
+            			<img src="//img.mbn.co.kr/newmbn/news_2020/im_fix_f.jpg" alt="페이스북">
+            		</a>
+            	</il>
+            	<li class="t">
+            		<a href="javascript:void(0)">
+            			<img src="//img.mbn.co.kr/newmbn/news_2020/im_fix_t.jpg" alt="트위터">
+            		</a>
+            	</li>
+            	<li>
+            		<a href="javascript:void(0)">
+            			<img src="//img.mbn.co.kr/newmbn/news_2020/im_fix_k.jpg" atl="카카오스토리">
+            		</a>
+            	</li> -->
+            	<li><img onclick="snsShare('facebook', '%22%EB%B0%B1%EC%8B%A0%ED%8C%A8%EC%8A%A4+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EA%B3%A0%22%E2%80%A650%EB%8C%80+%EC%9D%98%EC%82%AC%2C+%EA%B0%80%EC%A7%9C+%ED%8C%94%EC%97%90+%EC%A0%91%EC%A2%85+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EB%8B%A4+%EB%8D%9C%EB%AF%B8', 'http://www.mbn.co.kr/news/world/4654838');" src="//img.mbn.co.kr/newmbn/news_2020/im_fix_f.jpg" alt="페이스북 공유하기" style="cursor:pointer;" /></li><li><img onclick="snsShare('twitter', '%22%EB%B0%B1%EC%8B%A0%ED%8C%A8%EC%8A%A4+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EA%B3%A0%22%E2%80%A650%EB%8C%80+%EC%9D%98%EC%82%AC%2C+%EA%B0%80%EC%A7%9C+%ED%8C%94%EC%97%90+%EC%A0%91%EC%A2%85+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EB%8B%A4+%EB%8D%9C%EB%AF%B8', 'http://www.mbn.co.kr/news/world/4654838');" src="//img.mbn.co.kr/newmbn/news_2020/im_fix_t.jpg" alt="트위터 공유하기" style="cursor:pointer;" /></li><li><img onclick="snsShare('kakaostory', '%22%EB%B0%B1%EC%8B%A0%ED%8C%A8%EC%8A%A4+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EA%B3%A0%22%E2%80%A650%EB%8C%80+%EC%9D%98%EC%82%AC%2C+%EA%B0%80%EC%A7%9C+%ED%8C%94%EC%97%90+%EC%A0%91%EC%A2%85+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EB%8B%A4+%EB%8D%9C%EB%AF%B8', 'http://www.mbn.co.kr/news/world/4654838');" src="//img.mbn.co.kr/newmbn/news_2020/im_fix_k.jpg" alt="카카오스토리 공유하기" style="cursor:pointer;" /></li>            	
+            	<li><img style="cursor: pointer;" onclick="javascript:katalkShare();" alt="카카오톡 공유하기" src="//img.mbn.co.kr/newmbn/news_2020/im_fix_kt.jpg"></li>
+            	<li class="last">
+            		<a href="javascript:void(0)">
+            			<img src="//img.mbn.co.kr/newmbn/news_2020/im_fix_s.jpg" alt="기사공유" class="share_img" id="share_email">
+            		</a>
+            	</li>
+        	</ul>
+    	</div>
+	</div>
+	
+	<script>
+	/* var didScroll;
+	var lastScrollTop = 0; 
+	var delta = 100; // 동작의 구현이 시작되는 위치 
+	var navbarHeight = $('#header').outerHeight(); // 영향을 받을 요소를 선택
+
+	$(window).scroll(function(event){
+		didScroll = true;
+	});
+
+	setInterval(function(){
+		if (didScroll){
+			hasScrolled(); 
+			didScroll = false; 
+		} 
+	}, 100);
+
+	function hasScrolled(){
+		var st = $(this).scrollTop();
+
+		if(Math.abs(lastScrollTop - st) <= delta)
+			return;
+
+		if(st > lastScrollTop && st > navbarHeight){
+			//$('.fix_h_box').css('display','');
+			$('.fix_h_box').slideDown(100);
+		} else {
+			if(st + $(window).height() < $(document).height()){
+				//$('.fix_h_box').css('display','none');
+				$('.fix_h_box').slideUp(100);
+			}
+		}
+
+		lastScrollTop = st;
+	} */
+
+	jQuery(document).ready(function(){
+		
+    	var fixed = false;
+		var Downbar = jQuery('.gnb_depth').offset().top; // 탑바 노출 위치(좌표)
+         
+    	jQuery(window).scroll(function(){
+    		var scrolltopbar = jQuery(this).scrollTop();
+    
+    		var bar = parseInt($('.fix_h_box').css('top').replace('px', ''));
+    		var docHeight = jQuery(document).height();
+    		var windowHeight = jQuery(window).height();
+
+    		if (fixed == false)
+            {
+                if (scrolltopbar >= Downbar)
+                {
+                    if (bar < 0) 
+                    {
+                    	fixed = true;
+                        $('.fix_h_box').css('display','');
+                        $('.fix_h_box').animate({'top' : '+=120'}, function() { fixed = false; });
+                    }
+                }
+                else
+                {
+                    if (bar >= 0)
+                    {
+                    	fixed = true;
+                        $('.fix_h_box').animate({'top' : '-=120'}, function() { fixed = false; });
+                    }
+                }
+            }
+    	});
+	});
+	</script>	
+    <!--// fix header 추가 -->
+        
+    <!-- 헤더 -->
+	<div id="header"> 
+		<!-- GNB상단메뉴 -->
+		<div class="gnb_top">
+			<div class="top_box">
+				<ul class="left">
+					<li><a href="http://mk.co.kr" target="_blank">매일경제</a></li>
+					<li><a href="http://mbnmoney.mbn.co.kr/" target="_blank">매일경제TV </a></li>
+					<li><a href="http://economy.mk.co.kr/" target="_blank">매경이코노미</a></li>
+					<li><a href="http://luxmen.mk.co.kr/" target="_blank">매경LUXMEN</a></li>
+					<!-- <li><a href="http://sports.mk.co.kr/" target="_blank">MK스포츠</a></li> -->
+					<li><a href="http://news.mk.co.kr/newsList.php?sc=60000007" target="_blank">CITYLIFE </a></li>
+					<li><a href="http://gfw.mk.co.kr/" target="_blank">GFW </a></li>
+					<li><a href="http://www.m-print.co.kr" target="_blank">M-PRINT </a></li>
+				</ul>
+				<!-- 오늘의 시청률, 채널번호, 로그인, 회원가입 -->
+				<ul class="right" id="nav_service">							
+				</ul>
+				<!--// 오늘의 시청률, 채널번호, 로그인, 회원가입 -->
+			</div>
+		</div>
+		<!-- //GNB상단메뉴 -->
+		
+		<!-- GNB메뉴 -->
+		<div class="gnb_menu" style="height: 88px;">
+			<div class="gnb_menu_in" style="height: 88px;">
+				<h1 style="top: 27px;">
+					<a href="//www.mbn.co.kr/">
+						<img src="//img.mbn.co.kr/newmbn/news_2020/logo_mbn.gif" alt="mbn">
+					</a>
+					<a href="//www.mbn.co.kr/news/" class="logo_news" style="margin-left: -0.5px;">
+						<img src="//img.mbn.co.kr/newmbn/news_2020/logo_news.gif" alt="news">
+					</a>
+				</h1>
+				<ul class="left">
+					<li class="menu_li"><a href="//www.mbn.co.kr/vod/enter">예능 </a></li>
+					<li class="menu_li"><a href="//www.mbn.co.kr/vod/culture">교양</a></li>
+					<li class="menu_li"><a href="//www.mbn.co.kr/vod/drama">드라마</a></li>
+				</ul>
+				<ul class="right">
+					<li class="menu_li"><a href="//www.mbn.co.kr/vod/schedule">편성표 </a></li>
+					<li class="menu_li"><a href="//www.mbn.co.kr/vod/onair">온에어</a></li>
+					<li class="menu_li">
+						<a href="javascript:void(0);" onclick="searchbt()">
+							<img src="//img.mbn.co.kr/newmbn/main2018/search.gif" alt="검색하기">
+						</a>
+					</li>
+				</ul>
+				<!-- 검색창 레이어 -->
+				<div class="gnb_srch" id="search_box" style="display: none;">
+					<form name="top_search" id="top_search" action="//search.mbn.co.kr/MBN/search.jsp" method="POST" autocomplete="off">
+						<fieldset>
+							<legend>통합검색</legend>
+							<div class="srch_wrap">
+								<label for="s_keyword">
+									<input name="query" title="검색어 입력" align="middle" class="text" id="query" type="text" placeholder="" autocomplete="off" autocapitalize="off">
+								</label>
+							</div>
+							<label for="search">
+								<input class="srch_img" id="buttonSearch" type="submit" value="검색">
+							</label>
+							<a class="btn_close" href="javascript:void(0)" onclick="searchbtC()">닫기</a>
+						</fieldset>
+					</form>
+				</div>
+				<!-- 검색창 레이어 --> 
+			</div>
+		</div>
+		<!-- //GNB메뉴 --> 
+		
+		<!-- 검색 메뉴 script -->
+		<script>
+			function searchbt(){	
+				$('.gnb_srch').css('display','');
+			}
+			function searchbtC(){
+				$('.gnb_srch').css('display','none');
+			}
+		</script>
+		<!-- // 검색 메뉴 script -->
+		<style>
+            #header .gnb_sub_menu .sub_menu_in ul li.election{position:relative;margin-right: 0}
+            #header .gnb_sub_menu .sub_menu_in ul li.election:before{content:'';background: url("http://img.mbn.co.kr/election2021/news_pc_vote.png"); width: 18px; height: 18px; display: block; position: absolute; margin:4px 0 0 -22px;}
+        </style>
+		<!-- GNB sub_menu -->
+		<div class="gnb_sub_menu">
+			<div class="sub_menu_in">
+				<ul>
+					<li><a href="//www.mbn.co.kr/news/" class="on">뉴스</a></li>
+					<li><a href="//www.mbn.co.kr/vod/programContents/552/2636">다시보기</a></li>
+					<li><a href="//www.mbn.co.kr/news/rank-news/" >이슈플러스</a></li>
+					<li><a href="//star.mbn.co.kr">연예</a></li>
+					<li><a href="//photo.mbn.co.kr">포토</a></li>
+					<li><a href="//www.mbn.co.kr/news/beijing-2022/"  >2022 베이징</a></li>
+					<!--<li class="2020olmpic" style="margin-right: 0px;"><a href="//mbn.co.kr/news/tokyo-2020/"  >2020 도쿄</a></li>-->
+<!--                    <li class="election" style="margin-right: 0px;"><a href="//www.mbn.co.kr/pages/election/2021/index.mbn">2021 재·보궐선거</a></li>-->
+				</ul>
+								<div class="menu_right"> 
+					<span class="weather_box" style="width:140px;  height: 35px; top: 15px; margin-right: 168px;"></span>				
+				</div>
+							</div>
+		</div>
+		<!-- //GNB sub_menu -->
+		
+		<div class="gnb_depth">
+			<div class="gnb_depth_in ">
+				<ul>
+                                            <li><a href="//www.mbn.co.kr/news/date/">전체</a></li>
+                        <li><a href="//www.mbn.co.kr/news/politics/">정치</a></li>
+                        <li><a href="//www.mbn.co.kr/news/society/">사회</a></li>
+                        <li><a href="//www.mbn.co.kr/news/economy/">경제</a></li>
+                        <li><a href="//www.mbn.co.kr/news/world/">국제</a></li>
+                        <li><a href="//www.mbn.co.kr/news/culture/">문화</a></li>
+                        <li><a href="//www.mbn.co.kr/news/sports/">스포츠</a></li>
+                        <li><a href="//www.mbn.co.kr/news/entertain/">연예</a></li>
+                        <li><a href="//www.mbn.co.kr/news/life/">생활/건강</a></li>
+                        <!-- <li><a href="//www.mbn.co.kr/news/local/">지역</a></li> -->
+                        <li><a href="//www.mbn.co.kr/news/fact/" class="orange">사실확인</a></li>
+                        <li><a href="//www.mbn.co.kr/news/focusM/" class="orange">포커스M</a></li>
+                        <li><a href="//www.mbn.co.kr/news/dataM/" class="orange">데이터M</a></li>
+                        <li><a href="//www.mbn.co.kr/news/reporter/" class="orange">현장에서</a></li>
+                        <li><a href="//www.mbn.co.kr/news/behindangle/" class="orange">앵글뒤편</a></li>
+                        <li><a href="//www.mbn.co.kr/news/approaching/" class="orange">인기척</a></li>
+                    				</ul>
+				
+				<!-- 2020총선 
+				<span class="election2020"><a href="//www.mbn.co.kr/election">2020 총선</a></span>
+			     //2020총선 -->
+			
+			</div>
+		</div>
+		<!-- GNB depth --> 
+		
+	</div>
+<!-- 헤더 -->    <!-- //GNB메뉴 -->
+    <!-- container -->
+    <div id="container">
+        <!-- 상단 광고 : 구글 728-->
+        
+<!-- <div style="width:990px; margin:0 auto; border:0px solid red; margin-bottom:10px;"> -->
+
+<div style="margin: 0px auto; padding: 20px 10px; border: 0px solid red; border-image: none; width: 990px;">
+    <!-- google DPF TC-->
+    <center>
+    	<div id='google_dfp_TC_728x90,970x90,970x250'>
+    		<script type='text/javascript'>
+    			googletag.display('google_dfp_TC_728x90,970x90,970x250');
+    		</script>
+    	</div>
+    </center>
+
+<!--        
+    <a href="javascript:void(0);">
+    <script type="text/javascript" src="http://ad.mbn.co.kr/RealMedia/ads/adstream_jx.ads/ad.mbn.co.kr/program@Top2"></script>    
+    </a>
+	<button class="btn_close" type="button"><img src="http://img.mbn.co.kr/newmbn/news/view/btn_ad_close.gif" alt="닫기" /></button>
+-->     
+</div>        <div id="content_2020_top">
+            <div class="title_box">
+                <div class="box01"><span class="section">뉴스 &gt; 국제</span>
+                    <h1>"백신패스 받으려고"…50대 의사, 가짜 팔에 접종 받으려다 덜미</h1>
+                </div>
+                <div class="box02">
+                    <div class="txt_box"><span class="time"><span class="time">기사입력  2021-12-08 09:02 <span class="bar">l</span> 최종수정  2021-12-08 09:11</span></span></div>
+                    <div class="sns_right">
+                        <ul>
+                            <li><a href="javascript:void(0);"><img class="share_img" id="share_print" alt="print"
+                                                                   src="//img.mbn.co.kr/newmbn/news_2020/ic_print.gif"></a>
+                            </li>
+                            <li><a href="javascript:void(0);"><img class="share_img" id="share_email" alt="mail"
+                                                                   src="//img.mbn.co.kr/newmbn/news_2020/ic_email.gif"></a>
+                            </li>
+                            <li><img onclick="snsShare('facebook', '%22%EB%B0%B1%EC%8B%A0%ED%8C%A8%EC%8A%A4+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EA%B3%A0%22%E2%80%A650%EB%8C%80+%EC%9D%98%EC%82%AC%2C+%EA%B0%80%EC%A7%9C+%ED%8C%94%EC%97%90+%EC%A0%91%EC%A2%85+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EB%8B%A4+%EB%8D%9C%EB%AF%B8', 'http%3A%2F%2Fwww.mbn.co.kr%2Fnews%2Fworld%2F4654838');" src="//img.mbn.co.kr/newmbn/news_2020/ic_facebook.gif" alt="페이스북 공유하기" style="cursor:pointer;" /></li><li><img onclick="snsShare('twitter', '%22%EB%B0%B1%EC%8B%A0%ED%8C%A8%EC%8A%A4+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EA%B3%A0%22%E2%80%A650%EB%8C%80+%EC%9D%98%EC%82%AC%2C+%EA%B0%80%EC%A7%9C+%ED%8C%94%EC%97%90+%EC%A0%91%EC%A2%85+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EB%8B%A4+%EB%8D%9C%EB%AF%B8', 'http%3A%2F%2Fwww.mbn.co.kr%2Fnews%2Fworld%2F4654838');" src="//img.mbn.co.kr/newmbn/news_2020/ic_twitter.gif" alt="트위터 공유하기" style="cursor:pointer;" /></li><li><img onclick="snsShare('kakaostory', '%22%EB%B0%B1%EC%8B%A0%ED%8C%A8%EC%8A%A4+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EA%B3%A0%22%E2%80%A650%EB%8C%80+%EC%9D%98%EC%82%AC%2C+%EA%B0%80%EC%A7%9C+%ED%8C%94%EC%97%90+%EC%A0%91%EC%A2%85+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EB%8B%A4+%EB%8D%9C%EB%AF%B8', 'http%3A%2F%2Fwww.mbn.co.kr%2Fnews%2Fworld%2F4654838');" src="//img.mbn.co.kr/newmbn/news_2020/ic_castory.gif" alt="카카오스토리 공유하기" style="cursor:pointer;" /></li>
+                            <li><a href="javascript:katalkShare();"><img class="share_img" id="share_katalk"
+                                                                         alt="kakaotalk"
+                                                                         src="//img.mbn.co.kr/newmbn/news_2020/ic_cacaotalk.gif"></a>
+                            </li>
+
+                        </ul>
+                    </div>
+<!--                    <div class="rep">-->
+<!--                        <p style="border: 1px solid #d7d7d7; padding: 4px 8px;line-height: 13px; cursor: pointer;" id="reple_write">-->
+<!--                            <img style="vertical-align: middle;" alt="댓글"-->
+<!--                                    src="//img.mbn.co.kr/newmbn/news/view_2016/im_view2016_snsr.jpg"> -->
+<!--                            <span class="count">0</span></p>-->
+<!--                    </div>-->
+                    <div class="rep">
+                        <a id="reple_write" onclick="" style="cursor:pointer;">
+                            <img style="vertical-align: middle;" alt="댓글" src="//img.mbn.co.kr/newmbn/news/view_2016/im_view2016_snsr.jpg">
+                            <span class="count">0</span>
+                        </a>
+                    </div>
+                    <script type="text/javascript">
+                        
+				function snsShare(type, snsTitle, snsUrl) {
+					
+					switch (type) {
+					case "twitter":
+						url = "http://twitter.com/share?url=" + snsUrl;
+						options = "width=626,height=426,toolbar=0,status=0,resizable=yes";
+						break;
+					case "facebook":
+						url = "http://www.facebook.com/sharer.php?u=" + snsUrl; // + "&t=" + snsTitle;
+						options = "toolbar=0,status=0,width=626,height=426";
+						break;
+					case "kakaostory":
+						url = "https://story.kakao.com/share?url=" + snsUrl;
+						options = "width=500,height=500,toolbar=0,status=0,resizable=yes";
+						break;
+					case "google":
+						url = "http://www.google.com/bookmarks/mark?op=add&title=" + snsTitle + "&bkmk=" + snsUrl;
+						options = "scrollbars=no,resizable=yes";
+						break;
+					case "naverband":
+						url = "http://www.band.us/plugin/share?body=" + snsTitle + " " + snsUrl;
+						options = "width=410, height=400, resizable=no";
+						break;
+					default:
+						return false;	
+						break;
+					}        
+			        window.open(url, type, options);
+				}                    </script>
+                    <script type="text/javascript">
+                        $(function () {
+                            $('#reple_write').on('click',function () {
+                                var scroll = $('#social').offset();
+                                //console.log(scroll.top);
+
+                                $( 'html, body' ).stop().animate({scrollTop : scroll.top},1000);
+                            });
+                        })
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container_in">
+        <div class="con_left_view">
+            <div id="article_2020">
+                <div class="detail" id="newsViewArea" itemprop="articleBody">
+					<!-- 20210429 - 신규 부제목 영역 위치 -->
+										<div style="padding-left: 20px; border-left: 3px solid #ed6d01; font-size: 22px; line-height:34px; color: #000; margin-bottom: 30px">
+						주사 놓던 간호사 신고로 붙잡혀…사기죄 혐의로 조사 중<br>자신의 치과병원에 국가 방침 무시하는 안내문 붙이기도					</div>
+										<!-- //20210429 - 신규 부제목 영역 위치 -->
+
+                    <p>
+						<p></p><table width="800" style="margin:0 auto; clear:both;" cellpadding="0" cellspacing="0" border="0" align="center"><tbody><tr><td align="center" style="padding:10px 0 5px 0;"><img  class="lazy" src="//img.mbn.co.kr/newmbn/white.PNG" data-src="//img.mbn.co.kr/filewww/news/2021/12/08/163892106361aff367b750e.png" width="800"  alt="가짜 팔로 접종받은 뒤 백신 증명인 그린패스를 받으려다 덜미가 잡힌 이탈리아 치과 의사 귀도 루소(왼쪽). 그는 자신의 치과병원에 국가 방침을 거부하는 안내문(오른쪽)을 붙이기도 ..."  border="0" /></td></tr><tr><td style="padding-bottom:10px; color:#666; line-height:17px; font-size:12px; font-family:'돋움';">↑ 가짜 팔로 접종받은 뒤 백신 증명인 그린패스를 받으려다 덜미가 잡힌 이탈리아 치과 의사 귀도 루소(왼쪽). 그는 자신의 치과병원에 국가 방침을 거부하는 안내문(오른쪽)을 붙이기도 했다 / 사진 = New york Post 홈페이지 캡처</td></tr></tbody></table><br />
+백신 거부자인 이탈리아의 50세 남성이 코로나19 백신 증명인 '그린패스'를 받고자 가짜 팔에 백신을 맞으려다 들통났습니다. 해당 남성은 현지 의료진으로 밝혀져 논란이 커지고 있습니다.<br />
+<br />
+현지 시간 5일 이탈리아 종합지 라 레푸블리카에 따르면, 치과 의사 귀도 루소(57)는 가짜 팔에 백신을 맞으려다 사기죄 혐의로 조사를 받고 있습니다. 현지에서 '안티백서(백신 접종을 거부하는 사람)'로 잘 알려진 그는 가짜 팔에 이상함을 눈치챈 간호사의 신고로 덜미가 잡혔습니다.<br />
+<br />
+CNN 보도에 따르면, 이탈리아 북서부 피에몬테주의 소도시 비엘라에서 지난 2일 코로나19 백신을 접종하려던 간호사 부아는 루소가 실리콘 팔을 내밀었을 때 처음에는 그가 장애인인 줄 알고 측은한 마음이 들었다고 합니다. 실수로 정상적인 팔이 아닌 인공 팔을 내밀었다고 생각했기 때문입니다. 그러나 루소가 일부러 실리콘 팔을 준비해 내밀었다고 하자 부아는 분노했습니다. 부아는 인터뷰에서 "그는 우리의 지성과 직업에 대해 어떠한 존경심도 보이지 않았다"고 말했습니다.<br />
+<br />
+루소가 황당한 일을 벌인 계기는 치과 영업을 하기 위해서 의료계 종사자는 반드시 백신을 맞고 그린패스를 받아야 했기 때문입니다. 또한 그는 자신의 치과 병원 입구에 '환자의 그린패스 제시는 전적으로 자발적''이라고 붙여 실내 시설에 들어갈 때 이를 의무적으로 제시해야 하는 당국 방침도 거부했습니다.<br />
+<br />
+해당 사건에 <div style='padding-right:15px; text-align:left; float:left; margin-right:5px; margin-bottom:10px'><br />
+			<div id='google_dfp_MC_250x250'><script type='text/javascript'>googletag.display('google_dfp_MC_250x250'); </script></div></div>관해 피에몬테주의 알베르토 치리오 주지사는 "장난 같지만 정말 믿을 수 없는 매우 심각한 사건"이라며 "팬데믹 동안 우리 사회 전체가 지불한 인명·사회적·경제적 비용의 희생을 생각해보면 용납할 수 없는 행위"라고 비난했습니다.<br />
+<br />
+한편 루소는 지난 2016년에도 치과 기공사와 손잡고 불법적으로 치과를 운영한 혐의로 기소된 바 있습니다.<br />
+<br />
+[디지털뉴스부]					</p>
+
+					
+                </div>
+
+                                <!--// 기사 본문 내용 -->
+                <style>
+                    .tag_str {
+                        color: #2382c2;
+                        background: #ebf3f9;
+                        display: block;
+                        float: left;
+                        margin: 0 10px 10px 0;
+                        padding: 2px 1px 2px 2px;
+                        line-height: 16px;
+                    }
+                    .tag_box{
+                        margin-top:-40px;
+                        padding-bottom: 30px;
+                    }
+                </style>
+                <div class="tag_box">
+                                    </div><br>
+                
+                <!-- 종합뉴스 배너 -->
+                <div class='news8_bt_bn_area' style=''><a href='https://www.mbn.co.kr/vod/programContents/552/2636'><img src='https://img.mbn.co.kr/etc/images/2021/news8_banner/im_news8_type2.jpg' alt='MBN 종합뉴스 주말용 배너'></a></div>                
+                <!-- Copyright -->
+                <p class="copyright">
+                    Copyright ⓒ MBN(매일방송) 무단전재 및 재배포 금지                </p>
+                    <!-- 맞춤뉴스 -->
+                                        <!-- //맞춤뉴스 -->
+
+                    <!-- 기자 정보 -->
+                                        <!-- 기자 정보 -->
+
+                <!--// Copyright -->
+
+                <!-- 연관기사 -->
+                                <!--// 연관기사 -->
+
+                <!-- 화제뉴스 -->
+                <div class="relation_news2_2020">
+                    <div class="h3">화제 뉴스</div>
+                    <ul>
+                                                    <li>
+                                <a href="//www.mbn.co.kr/news/politics/4672108">이준석, 국민의힘 선대위에 쓴소리 폭탄…"득표 전략 없다"</a>
+                            </li>
+                                                    <li>
+                                <a href="//www.mbn.co.kr/news/politics/4672017">배우 문성근 “윤석열, 이래서 대학생 때까지 두들겨 맞았나”</a>
+                            </li>
+                                                    <li>
+                                <a href="//www.mbn.co.kr/news/society/4672145">[단독] 새해 첫날 50대의 쓸쓸한 죽음…"죽과 김치 주러 갔는데"</a>
+                            </li>
+                                                    <li>
+                                <a href="//www.mbn.co.kr/news/world/4672154">불난 집 위에 폭설까지…오미크론 확산 겹쳐 '항공대란'</a>
+                            </li>
+                                                <script type="text/javascript">
+                            var row = mbnstar_main1.section[0];
+                            var title = row.title.replace("'", "`");
+                            var thumb = row.img.replace(".thumb", "");
+                            var link = 'https://star.mbn.co.kr/view.php?year=' + row.year + '&no=' + row.no;
+
+                            document.write("<li><a href='" + link + "'>" + title + "</a></li>");
+                        </script>
+                                                    <li>
+                                <a href="//www.mbn.co.kr/news/society/4672098">"안쪽 노랗고 콧물까지"…쓰던 마스크 음식에 걸어두고 간 배달원</a>
+                            </li>
+                                                    <li>
+                                <a href="//www.mbn.co.kr/news/society/4672056">"장례식장서 배달된 피자에 편지와 조의금이"…사연에 주민들 '돈쭐'</a>
+                            </li>
+                                                                        <style>
+                            #google_dfp_MC_1x1 a span {
+                                font-size: 11pt;
+                                color: #333333;
+                                line-height: 1.5;
+                                font-weight: bold
+                            }
+                        </style>
+                        <!-- MBN 기사 -->
+                        <script type="text/javascript">
+                            // 화제 뉴스 내 한줄 광고 추가
+                            var adCnt = 0;
+                            var liSize = 5;
+                            /* if (typeof(newsview_topicnews_mbnstar ) != "undefined") {
+                            	liSize = liSize + newsview_topicnews_mbnstar.data.length;
+                            } */
+                            var adRandom = Math.floor(Math.random() * liSize);
+
+                            /*  if (typeof(newsview_topicnews ) != "undefined") {
+                                 html = "";
+                                 for (var i = 0; i < 5; i++) {
+                                     html += "<li><a href=\"" + newsview_topicnews.data[i].url + "\" target=\"_self\">" + newsview_topicnews.data[i].title + "</a></li>\n";
+
+                                     if (adCnt == adRandom) {
+                                         html += "<div><div id=\"google_dfp_MC_1x1\"><script type=\"text/javascript\">googletag.cmd.push(function() {googletag.display(\"google_dfp_MC_1x1\");});</scr" + "ipt></div></div>\n";
+                                     }
+                                     adCnt++;
+                                 }
+                                 if (newsview_topicnews.totalCount > 0) {
+                                     document.write(html);
+                                 }
+                             } */
+                            html = "<div><div id=\"google_dfp_MC_1x1\"><script type=\"text/javascript\">googletag.cmd.push(function() {googletag.display(\"google_dfp_MC_1x1\");});</scr" + "ipt></div></div>\n";
+                            document.write(html);
+                        </script>
+                        <!-- MBN 스타 기사 -->
+                        <script type="text/javascript">
+                            /* if (typeof(newsview_topicnews_mbnstar ) != "undefined") {
+                                html = "";
+                                for (var i = 0; i < newsview_topicnews_mbnstar.data.length; i++) {
+                                    html += "<li><a href=\"" + newsview_topicnews_mbnstar.data[i].url + "\" target=\"_self\">" + newsview_topicnews_mbnstar.data[i].title + "</a></li>\n";
+
+                                    if (adCnt == adRandom) {
+                                        html += "<div><div id=\"google_dfp_MC_1x1\"><script type=\"text/javascript\">googletag.cmd.push(function() {googletag.display(\"google_dfp_MC_1x1\");});</scr" + "ipt></div></div>\n";
+                                    }
+                                    adCnt++;
+                                }
+                                if (newsview_topicnews_mbnstar.data.length > 0) {
+                                    document.write(html);
+                                }
+                            } */
+                            html = "<div><div id=\"google_dfp_MC_1x1\"><script type=\"text/javascript\">googletag.cmd.push(function() {googletag.display(\"google_dfp_MC_1x1\");});</scr" + "ipt></div></div>\n";
+                            document.write(html);
+                        </script>
+                    </ul>
+                </div>
+                                                    <div class="issue_pick_wrapper">
+                        <div class="h3">오늘의 이슈픽</div>
+                        <div class="iframe_area">
+                            <iframe width="640" height="360" id="issue_pick_iframe"
+                                    src="https://www.mbn.co.kr/player/videojs/sharevideo.html?clipID=4335861&cpID=&autoplay=true&muted=true&site=MPLAY"
+                                    frameborder="0" scrolling="no" allowfullscreen="">
+                            </iframe></div>
+                    </div>
+                    <script>
+                                                function mutedPlay(){
+                            var vod = $('#issue_pick_iframe').contents().find('#ats-video_html5_api');
+                            vod.get(0).muted = true;
+                            vod.get(0).play();
+                            vod.get(0).muted = true;
+                        }
+
+                        window.onload = function() {
+                            var vod = $('#issue_pick_iframe').contents().find('#ats-video_html5_api');
+
+                            var interval = setInterval(function () {
+                                var play = 0;
+
+                                if (vod.length > 0) {
+                                    mutedPlay();
+                                    play++;
+                                }
+
+                                if (play > 0) {
+                                    clearInterval(interval);
+                                }
+                            }, 500);
+                        }
+                    </script>
+                                <!-- 광고 :: 텍스트/ 썸네일 광고  -->
+                <div class="relation_ad">
+                    <!------------------------------------- 구글 광고 STR :: DFP Slot (4) STR ------------------------------------->
+                    <div id='google_dfp_BC_468x61'>
+                        <script type='text/javascript'>googletag.display('google_dfp_BC_468x61'); </script>
+                    </div>
+                    <!------------------------------------- 구글 광고 STR :: DFP Slot (4) STR ------------------------------------->
+                </div>
+
+
+                <!-- //기사 본문 내용 -->
+
+                <!-- 하단 광고-->
+                <div id="bottom_ad">
+                    <div class="leftad">
+                        <!-- 광고영역-->
+                        <!-------------------------------------구글 광고 STR :: DFP Slot (5) STR ------------------------------------->
+                        <div id='google_dfp_BL_301x250'>
+                            <script type='text/javascript'>googletag.display('google_dfp_BL_301x250'); </script>
+                        </div>
+                        <!-------------------------------------구글 광고 STR :: DFP Slot (5) STR ------------------------------------->
+                        <!-- 광고영역-->
+                    </div>
+                    <div class="rightad">
+                        <!-- 광고영역-->
+                        <!-------------------------------------구글 광고 STR :: DFP Slot (6) STR ------------------------------------->
+                        <div id='google_dfp_BC_302x250'>
+                            <script type='text/javascript'>googletag.display('google_dfp_BC_302x250'); </script>
+                        </div>
+                        <!-------------------------------------구글 광고 STR :: DFP Slot (6) STR ------------------------------------->
+                        <!-- 광고영역-->
+                    </div>
+                </div>
+
+                <!-- 타불라 2018-03-06
+                <div id="taboola-below-article-thumbnails"
+                     style="padding: 30px 10px 0px 0px; width: 800px; margin-top: 35px; border-top-color: rgb(220, 220, 220); border-top-width: 1px; border-top-style: solid;"></div>
+                <script type="text/javascript">
+                    window._taboola = window._taboola || [];
+                    _taboola.push({
+                        mode: 'alternating-thumbnails-a',
+                        container: 'taboola-below-article-thumbnails',
+                        placement: 'Below Article Thumbnails',
+                        target_type: 'mix'
+                    });
+                </script>
+                            타불라 2018-03-06 -->
+				
+				<!-- 20200807 추가 Begin Dable 중단_교차B5 / For inquiries, visit http://dable.io -->
+				<div style="padding-right: 54px;">
+                    <div id="dablewidget_G7ZaWGoW" data-widget_id="G7ZaWGoW">
+                        <script>
+                        (function(d,a){d[a]=d[a]||function(){(d[a].q=d[a].q||[]).push(arguments)};}(window,'dable'));
+                        dable('renderWidget', 'dablewidget_G7ZaWGoW');
+                        </script>
+                    </div>
+                </div>
+                <!-- End 중단_교차B5 / For inquiries, visit http://dable.io -->
+                
+                <!-- 하단 탭뉴스 -->
+                <div id="bottom_tab_2020">
+                    <!-- 탭메뉴-->
+                    <ul class="click_tab" id="hot_contents_tab">
+                        <li class="tabon" id="tab1" style="width: 398px; cursor: pointer;">인기영상</li>
+                        <span class="tabline"></span>
+                        <li class="taboff" id="tab2" style="width: 398px; cursor: pointer;">시선집중</li>
+                    </ul>
+
+                    <!-- 1.인기영상탭-->
+                    <div class="hotvod_tab hotContentsClass" id="tab1_area">
+                        <div class="sec_1">
+                            <script type="text/javascript">
+                                var SEC_1 = "";
+                                if (typeof (newsview_popular_vodNews) != "undefined") {
+                                    for (var i = 0; i < 6; i++) {
+                                        if (i == 0) {
+                                            SEC_1 += "<div class=\"section_picture\">" +
+                                                "<a onclick=\"\" alt=\"\" href=\"" + newsview_popular_vodNews.data[i].url + "\">" +
+                                                "<img width=\"205\" height=\"124\" alt=\"\" class='lazy' src='//img.mbn.co.kr/newmbn/white.PNG' data-src=\"" + newsview_popular_vodNews.data[i].thumb + "\"></a>" +
+                                                "<div class=\"mask\"><p class=\"mask_tit\">" +
+                                                "<a onclick=\"\" alt=\"\" href=\"" + newsview_popular_vodNews.data[i].url + "\">" + newsview_popular_vodNews.data[i].title.substring(0, 18) + "</a>" +
+                                                "</p></div>" +
+                                                "</div>";
+                                        } else {
+                                            if (i == 1) {
+                                                SEC_1 += "<ul class=\"sec_1_lsit\">";
+                                                SEC_1 += "<li><img src=\"//img.mbn.co.kr/newmbn/news/view/click_bullet.gif\" alt=\"_\"><a href=\"" + newsview_popular_vodNews.data[i].url + "\">" + byteLen(newsview_popular_vodNews.data[i].title, 50) + "</a></li>";
+                                            } else if (i == 5) {
+                                                SEC_1 += "<li><img src=\"//img.mbn.co.kr/newmbn/news/view/click_bullet.gif\" alt=\"_\"><a href=\"" + newsview_popular_vodNews.data[i].url + "\">" + byteLen(newsview_popular_vodNews.data[i].title, 50) + "</a></li>";
+                                                SEC_1 += "</ul>";
+                                            } else {
+                                                SEC_1 += "<li><img src=\"//img.mbn.co.kr/newmbn/news/view/click_bullet.gif\" alt=\"_\"><a href=\"" + newsview_popular_vodNews.data[i].url + "\">" + byteLen(newsview_popular_vodNews.data[i].title, 50) + "</a></li>";
+                                            }
+                                        }
+                                    }
+                                    document.write(SEC_1);
+                                }
+                            </script>
+                        </div>
+                        <p class="line"></p>
+                        <div class="sec_2">
+                            <script type="text/javascript">
+                                var HTML = "";
+                                if (typeof (newsview_new_vod_program) != "undefined") {
+                                    for (var i = 0; i < 4; i++) {
+                                        HTML += "<li><a href=\"" + newsview_new_vod_program.data[i].vod_url + "\"><img class='lazy' src='//img.mbn.co.kr/newmbn/white.PNG' data-src=\"" + newsview_new_vod_program.data[i].photo + "\" alt=\"" + newsview_new_vod_program.data[i].prog_nm + "\" /></a><a href=\"" + newsview_new_vod_program.data[i].vod_url + "\"><img alt=\"동영상\" class=\"iconplay1\" src=\"//img.mbn.co.kr/newmbn/img/play_n.png\"></a><p class=\"txt\"><a href=\"" + newsview_new_vod_program.data[i].vod_main_url + "\" ><span class=\"strong\">[" + newsview_new_vod_program.data[i].prog_nm + "]</span></a><a href=\"" + newsview_new_vod_program.data[i].vod_url + "\">" + byteLen(newsview_new_vod_program.data[i].title, 50) + "</a></p></li>";
+                                    }
+                                    if (newsview_new_vod_program.totalCount > 0) {
+                                        document.write("<ul>" + HTML + "</ul>");
+                                    }
+                                }
+                            </script>
+                        </div>
+                    </div>
+                    <!--// 1.인기영상탭-->
+
+                    <!--시선집중 탭 영역-->
+                    <div class="focus_tab hotContentsClass" id="tab2_area" style="display: none;">
+                        <div class="sec_1">
+                            <ul class="sec_1_lsit2">
+                                <script type="text/javascript">
+                                    var HTML = "";
+                                    if (typeof (news_rank_mbn00006) != "undefined") {
+                                        HTML += "<li><a href=\"" + news_rank_mbn00006.section[0].url + "\"><strong>[정치]</strong> " + byteLen(news_rank_mbn00006.section[0].title, 44) + "</a></li>";
+                                        document.write(HTML);
+                                    }
+                                    var HTML = "";
+                                    if (typeof (news_rank_mbn00003) != "undefined") {
+                                        HTML += "<li><a href=\"" + news_rank_mbn00003.section[0].url + "\"><strong>[경제]</strong> " + byteLen(news_rank_mbn00003.section[0].title, 44) + "</a></li>";
+                                        document.write(HTML);
+                                    }
+                                    var HTML = "";
+                                    if (typeof (news_rank_mbn00009) != "undefined") {
+                                        HTML += "<li><a href=\"" + news_rank_mbn00009.section[0].url + "\"><strong>[사회]</strong> " + byteLen(news_rank_mbn00009.section[0].title, 44) + "</a></li>";
+                                        document.write(HTML);
+                                    }
+                                    var HTML = "";
+                                    if (typeof (news_rank_mbn00008) != "undefined") {
+                                        HTML += "<li><a href=\"" + news_rank_mbn00008.section[0].url + "\"><strong>[국제]</strong> " + byteLen(news_rank_mbn00008.section[0].title, 44) + "</a></li>";
+                                        document.write(HTML);
+                                    }
+                                    var HTML = "";
+                                    if (typeof (news_rank_mbn00007) != "undefined") {
+                                        HTML += "<li><a href=\"" + news_rank_mbn00007.section[0].url + "\"><strong>[문화]</strong> " + byteLen(news_rank_mbn00007.section[0].title, 44) + "</a></li>";
+                                        document.write(HTML);
+                                    }
+                                    var HTML = "";
+                                    if (typeof (news_rank_mbn00011) != "undefined") {
+                                        HTML += "<li><a href=\"" + news_rank_mbn00011.section[0].url + "\"><strong>[스포츠]</strong> " + byteLen(news_rank_mbn00011.section[0].title, 44) + "</a></li>";
+                                        document.write(HTML);
+                                    }
+                                </script>
+                            </ul>
+                            <div class="section_picture1">
+                                <script type="text/javascript">
+                                    var HTML = "";
+                                    if (typeof (newsview_focus_thumbnail) != "undefined") {
+                                        HTML += "<a href=\"//www.mbn.co.kr/news/all/" + newsview_focus_thumbnail.data[0].seq_no + "\"><img width=\"205\" alt=\"" + byteLen(newsview_focus_thumbnail.data[0].title, 44) + "\" class='lazy' src='//img.mbn.co.kr/newmbn/white.PNG' data-src=\"" + newsview_focus_thumbnail.data[0].img_nm1 + "\"></a>";
+                                        HTML += "<p><a href=\"//www.mbn.co.kr/news/all/" + newsview_focus_thumbnail.data[0].seq_no + "\">" + byteLen(newsview_focus_thumbnail.data[0].title, 60) + "</a></p>";
+                                        document.write(HTML);
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                        <p class="line"></p>
+                        <div class="sec_2">
+                            <ul>
+                                <script type="text/javascript">
+                                    var HTML = "";
+                                    if (typeof (newsview_focus_vodNpohto) != "undefined") {
+                                        for (var i = 0; i < newsview_focus_vodNpohto.data.length; i++) {
+                                            HTML += "<li><a href=\"//www.mbn.co.kr/news/all/" + newsview_focus_vodNpohto.data[i].seq_no + "\"><img class='lazy' data-src=\"" + newsview_focus_vodNpohto.data[i].img_nm1 + "\" alt=\"" + newsview_focus_vodNpohto.data[i].title + "\" /></a><a href=\"//www.mbn.co.kr/news/all/" + newsview_focus_vodNpohto.data[i].seq_no + "\">";
+                                            if (newsview_focus_vodNpohto.data[i].image_mark_vod == 'Y') {
+                                                HTML += "<img alt=\"동영상\" class=\"iconplay1\" src=\"//img.mbn.co.kr/newmbn/img/play_n.png\">";
+                                            }
+                                            HTML += "</a>";
+                                            HTML += "<p class=\"txt\"><a href=\"//www.mbn.co.kr/news/all" + newsview_focus_vodNpohto.data[i].seq_no + "\">" + byteLen(newsview_focus_vodNpohto.data[i].title, 50) + "</a></p></li>";
+                                        }
+                                        document.write(HTML);
+                                    }
+                                </script>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!---  스타 핫뉴스 -->
+                <div id="hotphoto_2020">
+                    <h3>
+                        <p>스타</p>
+                        <p class="org"> 핫뉴스</p>
+                    </h3>
+                    <script type="text/javascript">
+
+                        if (typeof (newsview_photo_gallery) != 'undefined') {
+                            var HTML = "";
+                            HTML += "<div class=\"hot_list\"><dl class=\"hot_mm\">";
+                            for (var i = 0; i < 4; i++) {
+                                HTML += "<dd>";
+                                HTML += "<span class=\"thumb\"><a href=\"" + newsview_photo_gallery.data[i].url + "\"><img width=\"165\" height=\"116\" onerror=\"this.style.display='none';\" alt=\"" + byteLen(newsview_photo_gallery.data[i].title, 40) + "\" class='lazy' src='//img.mbn.co.kr/newmbn/white.PNG' data-src=\"" + newsview_photo_gallery.data[i].img_path + "\"></a></span>";
+                                HTML += "<span class=\"rank_no" + (i + 1) + "\"></span>";
+                                HTML += "<span class=\"txt\"><a href=\"" + newsview_photo_gallery.data[i].url + "\">" + byteLen(newsview_photo_gallery.data[i].title, 40) + "</a></span>";
+                                HTML += "</dd>";
+                            }
+                            HTML += "</dl></div>";
+
+                            if (newsview_photo_gallery.totalCount > 0) {
+                                document.write(HTML);
+                            }
+                        }
+                    </script>
+                </div>
+                <div class="social" id="social" style="margin-right: 55px;">
+                    <!-- 라이브리 설치코드 -->
+                    <div id='lv-container' data-id='mbn' data-uid='MjcvMzkvMzA='>
+                        <script type='text/javascript'>
+                            window.livereOptions = {
+                                refer: "www.mbn.co.kr/pages/news/newsReply.php?news_seq_no=4654838"
+                                //refer: "www.mbn.co.kr/pages/news/newsView.php?news_seq_no=4654838"
+                                //site: '( 공유시 유입될 사이트 URL(refer와 동일할 경우 삭제 가능.)'
+                            };
+                            (function (d, s) {
+
+                                var j, e = d.getElementsByTagName(s)[0];
+
+                                if (typeof LivereTower === 'function') {
+                                    return;
+                                }
+
+                                j = d.createElement(s);
+                                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                                j.async = true;
+
+                                e.parentNode.insertBefore(j, e);
+                            })(document, 'script');
+                        </script>
+                        <noscript>라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요.</noscript>
+                    </div>
+                    <!-- 라이브리 설치코드 끝 -->
+                </div>
+                <div style="margin-bottom: 5%;"></div>
+
+
+            </div>
+        </div>
+        <!-- //content -->
+
+
+        <!-- aside -->
+<div class="con_right_view">
+
+    <!-- 상단배너 -->
+    <div class="aside_2018_ban" id="right_top_banner">
+        <script type="text/javascript">
+            if (typeof(rightTopBanner) != "undefined") {
+                html = "<div class=\"topBanner-clip\">";
+                for (var i = 0; i < rightTopBanner.data.length; i++) {
+                    if(rightTopBanner.data[i].window == "1"){var winFlag = "_blank";}else{var winFlag = "_self";}
+                    html += "<div><a href=\"" + rightTopBanner.data[i].url + "\" target=\"" + winFlag + "\" >";
+                    html += "	<img width=\"300\" height=\"100\" alt=\"" + rightTopBanner.data[i].ad_desc.replace(/(<([^>]+)>)/ig,"") + "\" class='lazy' src='//img.mbn.co.kr/newmbn/white.PNG' data-src=\"" + rightTopBanner.data[i].img + "\" alt=\"" + rightTopBanner.data[i].ad_desc + "\" />";
+                    html += "</a></div>";
+                }
+                html += "</div>";
+
+                html += '<a title="이전 배너" href="javascript:void(0);" style="z-index: 100;" id="bannerleft-prev" class="btn_prev" alt="이전 배너"><img alt="이전 배너" src="//img.mk.co.kr/main/2016/bn_prev.gif"></a>';
+                html += '<a title="이전 배너" href="javascript:void(0);" style="z-index: 100;" id="bannerright-next" class="btn_next" alt="이전 배너"><img alt="다음 배너" src="//img.mk.co.kr/main/2016/bn_next.gif"></a> ';
+
+                if(newsview_focus_mbn.data.length > 0) {
+                    document.write(html);
+                }
+                $('.topBanner-clip').cycle({fx:'scrollHorz',prev:'#bannerleft-prev',next:'#bannerright-next',speedIn:100,speedOut:100,speed:500,timeout:0});
+            }
+        </script>
+
+    </div>
+
+    <!-- 금주의 프로그램 -->
+    <div id="right_program_2020">
+        <div class="h3">금주의 프로그램</div>
+
+        <script type="text/javascript">
+            if (typeof(newsview_focus_mbn) != "undefined") {
+                html = "<div class=\"todayfocus-clip\"><ul>";
+                for (var i = 0; i < newsview_focus_mbn.data.length; i++) {
+                    html += "<li>";
+                    html += "   <span class=\"thumb_h\"><a href=\"" + newsview_focus_mbn.data[i].url + "\">";
+                    html += "    <img alt=\"" + newsview_focus_mbn.data[i].title.replace(/(<([^>]+)>)/ig,"") + "\" class='lazy' src='//img.mbn.co.kr/newmbn/white.PNG' data-src=\"" + newsview_focus_mbn.data[i].thumb.replace('http://','//') + "\">";
+                    html += "   </a></span>";
+                    html += "   <a href=\"" + newsview_focus_mbn.data[i].url + "\">";
+                    html += "   </a>";
+                    html += "   <span class=\"tit\"><strong>" + newsview_focus_mbn.data[i].program + "</strong><a href=\"" + newsview_focus_mbn.data[i].url + "\" target=\"_self\">" + newsview_focus_mbn.data[i].title.replace(/(<([^>]+)>)/ig,"").substring(0, 24) + "</a>";
+                    html += "       <span class=\"date\">" + newsview_focus_mbn.data[i].reg_dt.substring(0, 4) + ". " + newsview_focus_mbn.data[i].reg_dt.substring(5, 7) + ". " + newsview_focus_mbn.data[i].reg_dt.substring(8, 10) + "</span>";
+                    html += "</span></li>\n";
+
+                    if( (i+1)%3 == 0 && (i+1) < newsview_focus_mbn.data.length ) {
+                        html += "</ul><ul style=\"display:none;\">";
+                    }
+                }
+                html += "</ul></div>";
+
+                if(newsview_focus_mbn.data.length > 0) {
+                    document.write(html);
+                }
+            }
+        </script>
+        <a title="이전 배너" class="btn_prev todayfocus-prev" href="#n" alt="이전 배너"><img style="cursor: pointer;" alt="이전" src="//img.mbn.co.kr/newmbn/news_2016/2018/bn_prev.gif"></a>
+        <a title="다음 배너" class="btn_next todayfocus-next" href="#n" alt="다음 배너"><img style="cursor: pointer;" alt="다음" src="//img.mbn.co.kr/newmbn/news_2016/2018/bn_next.gif"></a> </div>
+    <!-- //금주의 프로그램 -->
+
+    <!-- 구글 광고 300*250 STR -->
+    <div id='google_dfp_MR_300x250,300x450,300x600' style='float:left;width:300px;margin-top: 15%;'><script type='text/javascript'>googletag.display('google_dfp_MR_300x250,300x450,300x600');</script></div>
+    <!--구글 광고 300*250 ETX -->
+
+    <!-- 화제 영상 -->
+    <div id="right_hot_movie2020">
+        <div class="h3">화제영상</div>
+        <script type="text/javascript">
+            if (typeof(aside_newsview_hotvod) != "undefined") {
+
+                html = "<div id=\"content_hot_movie\"><ul class='sec01'>";
+                for (var i = 0; i < aside_newsview_hotvod.data.length-2; i++) {
+                    html += "<li class='txt'>";
+                    //html += "	<img alt=\"\" src=\"http://img.mbn.co.kr/newmbn/news/main/arrow_1.png\" />";
+                    html += "	<a target=\"" + aside_newsview_hotvod.data[i].target + "\" href=\"" + aside_newsview_hotvod.data[i].url + "\">";
+                    html += (i == 0) ? "<strong>" : "";
+                    html += aside_newsview_hotvod.data[i].title.replace(/(<([^>]+)>)/ig,"");
+                    html += (i == 0) ? "</strong>" : "";
+                    html += "	</a>";
+                    html += "</li>\n";
+                }
+                html += "</ul></div>";
+
+                html += "<div id=\"right_movie_list\"><ul class='sec02'>";
+                for (var i = aside_newsview_hotvod.data.length-2; i < aside_newsview_hotvod.data.length; i++) {
+
+                    html += "<li>";
+                    html += "	<a target=\"" + aside_newsview_hotvod.data[i].target + "\" href=\"" + aside_newsview_hotvod.data[i].url + "\">";
+                    html += "		<img alt=\"" + aside_newsview_hotvod.data[i].title.replace(/(<([^>]+)>)/ig,"") + "\" class='lazy' src='//img.mbn.co.kr/newmbn/white.PNG' data-src=\"" + aside_newsview_hotvod.data[i].img + "\" />";
+                    html += "		<span class=\"ic_play\">플레이버튼</span>";
+                    html += "	</a>";
+                    /* html += "	<a target=\"" + aside_newsview_hotvod.data[i].target + "\" href=\"" + aside_newsview_hotvod.data[i].url + "\">";
+                    html += "		<span class=\"ic_play\">플레이버튼</span>";
+                    html += "	</a>"; */
+                    html += "	<span class='txt'>";
+                    html += "		<a target=\"" + aside_newsview_hotvod.data[i].target + "\" href=\"" + aside_newsview_hotvod.data[i].url + "\">";
+                    html += "			" + aside_newsview_hotvod.data[i].title;
+                    html += "		</a>";
+                    html += "	</span>";
+                    html += "</li>";
+                    html += (i == aside_newsview_hotvod.data.length-2) ? "<li class=\"listblank\"></li>" : "";
+                }
+                html += "</ul></div>";
+
+                if(aside_newsview_hotvod.data.length > 0) {
+                    document.write(html);
+                }
+                // console.log('화제영상');
+                // console.log(html);
+            }else{
+                // console.log("없음");
+            }
+        </script>
+        <span class="more"><a href="https://tv.naver.com/b/mbn" target="_blank">더보기</a><span class="ic"></span></span> </div>
+    <!--// 화제 영상 -->
+
+    <!-- 이시각 베스트 -->
+    <div id="todaybest_2020">
+        <div class="h3">이시각 BEST</div>
+
+        <div class="tab" style="cursor: pointer;">
+            <div class="tabon" id="tabNews">뉴스</div>
+            <div class="taboff" id="tabVod">동영상</div>
+        </div>
+        <ul id="ulNews" style="display: block;">
+            <script type="text/javascript">
+                //이시각 베스트 뉴스
+                if (typeof(newsmain_bestNews ) != 'undefined') {
+                    var bestNewsList ="";
+                    for(var i=0; i<(newsmain_bestNews.data.length -5); i++) {
+                        var cnt = i+1;
+                        if(i == 0) {
+                            bestNewsList += "<li><span class='num"+cnt+"'>"+cnt+"</span>";
+                            //bestNewsList += "<img src='http://img.mbn.co.kr/newmbn/news/main/best01.gif'>";
+                            bestNewsList += "<a href='"+ newsmain_bestNews.data[i].url + "'><strong>"+ newsmain_bestNews.data[i].title + "</strong>";
+                            bestNewsList += "</a>";
+                            bestNewsList += "</li>";
+                        } else {
+                            bestNewsList += "<li><span class='num"+cnt+"'>"+cnt+"</span>";
+                            //bestNewsList += "<img src='http://img.mbn.co.kr/newmbn/news/main/best0"+ cnt +".gif'>";
+                            bestNewsList += "<a href='"+ newsmain_bestNews.data[i].url + "'>"+ newsmain_bestNews.data[i].title + "";
+                            bestNewsList += "</a>";
+                            bestNewsList += "</li>";
+                        }
+                    }
+                    document.write(bestNewsList);
+                }
+            </script>
+        </ul>
+        <ul id="ulbVod" style="display: none;">
+            <script type="text/javascript">
+                //이시각 베스트 VOD
+                if (typeof(newsmain_bestVod ) != 'undefined') {
+                    var bestVodList ="";
+                    for(var i=0; i<(newsmain_bestVod.data.length -5); i++) {
+                        var cnt = i+1;
+                        if(i == 0) {
+                            bestVodList += "<li><span class='num"+cnt+"'>"+cnt+"</span>";
+                            //bestVodList += "<img src='http://img.mbn.co.kr/newmbn/news/main/best01.gif'>";
+                            bestVodList += "<a href='"+ newsmain_bestVod.data[i].url + "'><strong>"+ newsmain_bestVod.data[i].title + "</strong>";
+                            bestVodList += "</a>";
+                            bestVodList += "</li>";
+                        } else {
+                            bestVodList += "<li><span class='num"+cnt+"'>"+cnt+"</span>";
+                            //bestVodList += "<img src='http://img.mbn.co.kr/newmbn/news/main/best0"+ cnt +".gif'>";
+                            bestVodList += "<a href='"+ newsmain_bestVod.data[i].url + "'>"+ newsmain_bestVod.data[i].title + "";
+                            bestVodList += "</a>";
+                            bestVodList += "</li>";
+                        }
+                    }
+                    document.write(bestVodList);
+                }
+            </script>
+        </ul>
+    </div>
+    <!--// 이시각 베스트 -->
+
+    <!-- 구글 광고 300*250 STR -->
+    <div id="right_info_2020">
+        <div class="ad1">
+            <div id='google_dfp_BR_300x250,300x265' style='float:left'><script type='text/javascript'>googletag.display('google_dfp_BR_300x250,300x265');</script></div>
+        </div>
+    </div>
+    <!-- 구글 광고 300*250 ETX -->
+
+    <!-- 주요뉴스 -->
+    <div id="right_news_2020">
+        <div class="h3">주요뉴스</div>
+        <ul class="sec01">
+            <script type="text/javascript">
+                if (typeof(aside_topic_newsmain) != "undefined") {
+                    var j=1;
+                    //aside_news_rank_mbn00001.data.length
+                    for (var i = 0; i < 5; i++) {
+                        if( i == 0 )
+                            document.write("<li class='txt'><a href=\"" + aside_topic_newsmain.data[i].url +  "\"><strong>" + byteLen(aside_topic_newsmain.data[i].title,36) + "</strong></a></li>");
+                        else
+                            document.write("<li class='txt'><a href=\"" + aside_topic_newsmain.data[i].url +  "\">" + byteLen(aside_topic_newsmain.data[i].title,40) + "</a></li>");
+                        j++;
+                    }
+                }
+            </script>
+        </ul>
+        <span class="more"><a href="//www.mbn.co.kr/news/" target="_blank">더보기</a><span class="ic"></span></span>
+    </div>
+    <!-- //주요뉴스 -->
+
+    <!-- 인기포토 -->
+    <div id="s_photo_2020">
+        <div class="h3">MBN 인기포토</div>
+        <iframe class="lazy" data-src="//photo.mbn.co.kr/inc_popPhoto.php" name="photo_iframe" width="290" height="225" title="포토 뉴스" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="true">아이프레임 미지원 장치에서는 내용을 확인할 수 없습니다.</iframe>
+    </div>
+    <!-- //인기포토 -->
+
+    <!-- sns 라이브 톡톡 -->
+     <div id="right_sns_2020">
+        <!--<div class="h3">SNS LIVE 톡톡</div>
+        <div class="list" id="livetok">
+            <ul></ul>
+        </div> -->
+        <div class="h4">SNS 관심기사</div>
+        <ul class="sns_news" id="recommrank" style="margin-left: -10px; margin-top:5px;"></ul>
+        <!-- <p class="sns_btnset">
+            <a id="resumeArea2" href="javascript:resumeBtn2();"><img id="snsPlayImg" alt="SNS 보기 버튼" src="//img.mbn.co.kr/newmbn/main2014/img_snslive_btnp_ov.jpg"></a>
+            <a id="pauseArea2" href="javascript:pauseBtn2();"><img id="snsStopImg" alt="SNS 정지 버튼" src="//img.mbn.co.kr/newmbn/main2014/img_snslive_btns.jpg"></a>
+        </p> -->
+    </div>
+    <script type="text/javascript">
+        $.ajax({
+            type: "POST",
+            url: "/lib/module/getNewsSnsRank.php",
+            dataType: "json",
+            success: function (data) {
+            	for (var i = 0; i < data.length; i++) {
+                	var sns_title=data[i].title;
+                	var sns_link=data[i].link;
+    
+                	$('#recommrank').append("<li><a href='//" + sns_link + "'>" +  sns_title + "</a></li>");
+            	}
+            }
+        });
+    
+        /* if (typeof(aside_liveTokTokList) != "undefined") {
+            for (var i = 0; i < aside_liveTokTokList.totalCount; i++) {
+                $('#livetok ul').append("<li><a class=\"img\" href=\"" + aside_liveTokTokList.data[i].member_url + "\" target=\"_blank\"><img width=\"40\" height=\"40\" class='lazy' src='//img.mbn.co.kr/newmbn/white.PNG' data-src=\"" + aside_liveTokTokList.data[i].member_icon.replace('http://','//') + "\"></a><p><a href=\"" + aside_liveTokTokList.data[i].link + "\">" + aside_liveTokTokList.data[i].title + "</a>" + aside_liveTokTokList.data[i].content + "<span>date " + aside_liveTokTokList.data[i].date + " hours " + aside_liveTokTokList.data[i].hours + " sec " + aside_liveTokTokList.data[i].sec + "  </span><span class=\"" + aside_liveTokTokList.data[i].domain + "\"></span></p>");
+            }
+            $('#livetok ul').cycle({fx: 'scrollUp',prev: '.snsLivePrev',next: '.snsLiveNext',speedIn: 2000,speedOut: 2000,speed: 3000,timeout: 1000});
+        } */
+        /* if (typeof(aside_liveTokTokRank) != "undefined") {
+            for (var i = 0; i < aside_liveTokTokRank.totalCount-1; i++) {
+                sns_title = aside_liveTokTokRank.data[i].title;
+                if(sns_title.length > 21){
+                    sns_title = sns_title.substring(0, 20) + "..";
+                }
+                $('#recommrank').append("<li><a href=http://" + aside_liveTokTokRank.data[i].link + ">" +  sns_title + "</a></li>");
+
+            }
+        } */
+    </script>
+    <!-- //sns 라이브 톡톡 -->
+
+    <!-- 광고 : 인기정보[아이엠애드] STR -->
+    <div id="right_today_info2018">
+        <div class="ad1">
+            <!-------------------------------------구글 광고 300*250 STR ------------------------------------->
+            <div id='google_dfp_BR_300x250,300x266' style='float:left; margin-top: 15%; margin-bottom: 10%;'><script type='text/javascript'>googletag.display('google_dfp_BR_300x250,300x266');</script></div>
+            <!-------------------------------------구글 광고 300*250 ETX ------------------------------------->
+        </div>
+    </div>
+    <!-- 광고 : 인기정보[아이엠애드] ETX -->
+
+    <!-------------------------------------  MBN PLUS ------------------------------------->
+    <!--
+<div id="right_plus">
+<h4>
+MBN <span class="bluetit">PLUS+</span>
+<div class="tab" style="cursor:pointer">
+    <div id="tabUnse" class="tabon">운세</div>
+    <div id="tabCartoon" class="taboff">미디어</div>
+</div>
+</h4>
+
+<ul id="ulUnse">
+<div class="morebtn">
+    <a href="http://unse.mbn.co.kr/" class="btn">전체보기</a>
+</div>
+<li><a href="http://unse.mbn.co.kr/unse/life/1213yearluck/main.asp"><img src="http://img.mbn.co.kr/newmbn/news/view/fortune1.jpg" alt="" />2013년 2014년<em>토정비결</em></a></li>
+<li><a href="http://unse.mbn.co.kr/unse/life/lifeluck/main.asp"><img src="http://img.mbn.co.kr/newmbn/news/view/fortune2.jpg" alt="" />최고 역술인 풀이<em>나의 평생운세</em></a></li>
+<li><a href="http://unse.mbn.co.kr/unse/love/wedluck/main.asp"><img src="http://img.mbn.co.kr/newmbn/news/view/fortune3.jpg" alt="" />연애? 결혼?<em>찰떡궁합풀이</em></a></li>
+</ul>
+<ul id="ulCartoon" style="display:none">
+<div class="morebtn">
+    <a href="http://mbn.co.kr/pages/newmedia/dmbTV.php?menuCode=dmb" class="btn">전체보기</a>
+</div>
+<li><a href="http://tvpot.daum.net/mypot/Top.do?ownerid=Ibk5fvE8Uiw0"><img src="http://img.mbn.co.kr/newmbn/news/view/daumtv.jpg" alt="" />다음TV팟 <br> 추천 동영상</a></li>
+<li><a href="http://www.youtube.com/user/mbn"><img src="http://img.mbn.co.kr/newmbn/news/view/youtube.jpg" alt="" />유튜브 <br> 화제영상 보기</a></li>
+<li><a href="hhttp://www.mbn.co.kr/pages/festival/main.mbn"><img src="http://img.mbn.co.kr/newmbn/news/view/mbnfestival.jpg" alt="" />축제•행사 정보를 <br> 한눈에 확인하세요</em></a></li>
+</ul>
+</div>
+-->
+    <!------------------------------------- //MBN PLUS ------------------------------------->
+
+</div>
+<!-- //aside -->
+    </div>
+
+    <!-- twitter Like API -->
+    <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+
+    <script type="text/javascript">
+
+        // sns 怨듭쑀�븯湲� �쁺�뿭
+        $(".share_img").click(function () {
+            var seq_no = "4654838";
+            var url = "http://www.mbn.co.kr/news/world/4654838";
+            var encTitle = "%22%EB%B0%B1%EC%8B%A0%ED%8C%A8%EC%8A%A4+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EA%B3%A0%22%E2%80%A650%EB%8C%80+%EC%9D%98%EC%82%AC%2C+%EA%B0%80%EC%A7%9C+%ED%8C%94%EC%97%90+%EC%A0%91%EC%A2%85+%EB%B0%9B%EC%9C%BC%EB%A0%A4%EB%8B%A4+%EB%8D%9C%EB%AF%B8";
+            var title = "″백신패스 받으려고″…50대 의사, 가짜 팔에 접종 받으려다 덜미";
+            var snsUrl = popup = "";
+            var id = this.id;
+
+            if (id == "share_print") {
+                var printUrl = "/pages/news/newsPrintView.php?news_seq_no=" + seq_no;
+                window.open(printUrl, "MBN_NEWS_PRINT_WINDOW", "width=800,height=500,scrollbars=yes,toolbars=no,menubar=no");
+            } else if (id == "share_email") {
+                window.open("/pages/news/newsMailform.php?news_seq_no=" + seq_no + "&title=" + encTitle, "_newMail", "toolbar=0,status=0,width=650,height=655, toolbars=no, scrollbars=no, scrolling=no");
+            } else if (id == "share_facebook") {
+                snsUrl = "//www.facebook.com/sharer/sharer.php?u=" + url;
+                var popup = window.open(snsUrl, "_snsPopupWindow", "width=500, height=500");
+                popup.focus();
+            } else if (id == "share_twitter") {
+                snsUrl = "//twitter.com/share?url=" + url + '&text=' + encodeURIComponent(title);
+                var popup = window.open(snsUrl, "_snsPopupWindow", "width=500, height=300, resizable=yes");
+                popup.focus();
+            } else if (id == "share_kakaostory") {
+                snsUrl = "https://story.kakao.com/share?url=" + url;
+                var popup = window.open(snsUrl, "_snsPopupWindow", "width=500, height=500");
+                popup.focus();
+            }
+
+        });
+    </script>
+
+    <!--footer -->
+    <div id="footer">
+    <!-- //////////////// 모바일로 돌아가기 /////////////// -->
+    <div id="mbnPcVer"></div>
+    <!-- //////////////// 모바일로 돌아가기 /////////////// -->
+    <!--푸터-->
+    <div class="footerbox">
+        <!--MBN메뉴-->
+        <div class="menu">
+            <h3><img src="//img.mbn.co.kr/newmbn/main2018/logo_f.gif" alt="mbn로고"></h3>
+            <ul>
+                <li><a href="http://company.mbn.co.kr/" target="_blank">MBN 소개</a></li>
+                <li><a href="http://company.mbn.co.kr/pages/ad/adonline.php" target="_blank">제휴 안내</a></li>
+                <li><a href="http://mbnrep.co.kr/" target="_blank">TV 광고</a></li>
+                <li><a href="http://member.mbn.co.kr/pages/mypage/MypageUsersAgreementPolicy.php">이용약관</a></li>
+                <li><a href="http://member.mbn.co.kr/pages/mypage/MypagePersonalInfotmationPolicy.php"><span>개인정보처리방침</span></a></li>
+                <li><a href="http://member.mbn.co.kr/pages/mypage/MypageOtherPolicy.php">기타운영정책</a></li>
+                <li><a href="http://www.mbn.co.kr/pages/customer/customerMain.php">고객센터</a></li>
+                <li><a href="http://www.mbn.co.kr/pages/customer/customerReport.php">뉴스제보</a></li>
+                <li><a href="//www.mbn.co.kr/pages/sitemap/years.php" target="_blank">사이트맵</a></li>
+            </ul>
+            <fieldset>
+                <legend>Family Site</legend>
+                <select title="사이트선택" class="selectbox" onchange="chageFamily(this.value)">
+                    <option selected="selected" value="">Family Site</option>
+                    <option value="http://www.mk.co.kr/">매일경제</option>
+                    <option value="http://channel.mk.co.kr/mk_intro/html/main.htm">매경닷컴</option>
+                    <option value="http://economy.mk.co.kr/">매경이코노미</option>
+                    <option value="http://news.mk.co.kr/newsList.php?sc=60000007">시티라이프</option>
+                    <option value="http://m-print.co.kr/">M-print</option>
+                    <option value="http://mbnmoney.mbn.co.kr/">매일경제TV</option>
+                    <option value="http://mbnrep.co.kr/">MBN 미디어렙</option>
+                </select>
+            </fieldset>
+        </div>
+        <!--//MBN메뉴-->
+
+        <!--copyright-->
+        <ul class="copy">
+            <li>
+                <p>매일방송</p>
+                <span>대표이사 : 류호길</span> <span>서울시 중구 퇴계로 190 (주)매일방송</span> <span><a href="http://company.mbn.co.kr/pages/company/coantactus.php" target="_blank">오시는길</a></span> <span>대표전화 02-2000-3114</span> </li>
+            <li>
+                <p>매경닷컴 </p>
+                <span>대표이사 : 김정욱 </span> <span>인터넷신문등록번호 서울 아01043</span> <span>사업자 등록번호 201-81-25980</span> </li>
+            <br>
+            <li> <span>MBN의 모든 기사 및 영상(콘텐츠)은 저작권법의 보호를 받으며, 무단 전재, 복사, 배포를 금합니다.</span> <span>Copyright © MBN 매일방송 All rights reserved. </span> </li>
+            <!-- 
+            <li class="etc">
+                <p style="float:right;"><a href="https://www.copyrightok.kr/ " target="blank"><img title="저작권OK" alt="저작권OK" src="//img.mbn.co.kr/newmbn/main2018/img_copyright.gif"></a></p>
+                <form name="certiFormView" method="post">
+                    <input name="certiNo" type="hidden" value="2012-08-0004">
+                    <input name="checkCode" type="hidden" value="KRMEY49O7Z88EH0OHIJO">
+                    <a title="콘텐츠제공서비스 품질인증" href="javascript:certiPopup();"><img alt="콘텐츠제공서비스 품질인증" src="//img.mbn.co.kr/newmbn/main2018/img_kocca.gif"></a>
+                </form>
+            </li>
+            -->
+        </ul>
+        <!--copyright-->
+    </div>
+    <!--푸터-->
+</div>
+
+<script type="text/javascript">
+
+    function chageFamily(arg){
+        if(arg){
+            window.open(arg);
+        }
+    }
+    function mbnFavor() {
+        window.external.AddFavorite('//www.mbn.co.kr/', 'MBN :: 매일방송');
+    }
+
+    function certiPopup() {
+
+        var sURL = "//www.mbn.co.kr/pages/event/award.mbn";
+
+        var sFeatures = "width=460,height=610,status=no,menubar=no,toolbar=no";
+
+        var win = window.open("", "certiFormView", sFeatures);
+
+
+
+        document.certiFormView.action = sURL;
+
+        document.certiFormView.target = "certiFormView";
+
+        document.certiFormView.submit();
+
+        win.focus();
+
+    }
+
+</script>
+<!--// copyright -->
+
+<!-- statistics v2-->
+<script type="text/javascript">
+    function addClick() {
+        $.ajax({
+            type: "POST",
+            url: "//www.mbn.co.kr/process/addClick/putRefereCnt.php",
+            data: "news_seq_no=&referer=",
+            cache: false
+        });
+    }
+    addClick();
+</script><!--// statistics -->
+
+<script type="text/javascript">
+    $('.mbn11_sitemap') .click(function() {
+        if($('.mbn_map_category2').css('display') == 'none')
+            $('.mbn_map_category2').show();
+        else
+            $('.mbn_map_category2').hide();
+    });
+</script>
+    <!--//footer -->
+
+    <script type="text/javascript">
+        // var queryString = document.location.search.split("?");
+        // var queryArray = queryString[1].split("&");
+        // var reffer = "";
+        // var pos = "";
+        //
+        // for (i = 0; i < queryArray.length; i++) {
+        //     var param = queryArray[i].split("=");
+        //
+        //     if (param[0] == "ref") {
+        //         reffer = param[1];
+        //     } else if (param[0] == "pos") {
+        //         pos = param[1];
+        //     }
+        // }
+
+        var queryString = window.location.pathname.split('/');
+
+        var reffer = "";
+        var pos = "";
+
+        if (queryString.length > 4) {
+            reffer = queryString[5];
+            pos = queryString[4];
+        }
+
+        //news click
+        function callHit() {
+            $.ajax({
+                type: "POST",
+                url: "//www.mbn.co.kr/process/addNewsHit.php",
+                data: {
+                    "news_seq_no": "4654838",
+                    "vod_have": "10",
+                    "reg_dt": "20211208090233",
+                    "category": "mbn00008"
+                },
+                cache: false
+            });
+        }
+
+        callHit();
+
+        //newsstand click
+        function nClick() {
+            $.ajax({
+                type: "POST",
+                url: "//www.mbn.co.kr/process/addClick/putNSCnt.php",
+                data: {"news_seq_no": "4654838", "ref": reffer, "pos": pos},
+                cache: false
+            });
+        }
+
+        nClick();
+
+    </script>
+
+
+    <script type="text/javascript">
+    	var referUrl = 'www.mbn.co.kr/pages/news/newsReply.php?news_seq_no=4654838';
+        $.ajax({
+            type: "POST",
+            url: "/lib/module/getNewsReplyCnt.php",
+            dataType: "html",
+            data : {mcp_url : referUrl},
+            success: function (data) {
+            	if (data > 0) {
+                    $('#reple_write > span').html(data);
+                }
+            }
+        });
+
+        $(function () {
+
+            var left = $("#content"); // �쇊履�(蹂몃Ц) �쁺�뿭
+            var right = $(".aside_area"); // �삤瑜몄そ �쁺�뿭
+            var win = $(window); // 李�
+            var header = $("#header"); // �뿤�뜑
+            var footer = $("#footer_newsmain"); //�뫖�꽣
+            var container = $("#container");
+            var margin = header.height() + 115;
+
+            function rightLong() {
+                // �슦痢≪쁺�뿭�씠 醫뚯륫(蹂몃Ц)�쁺�뿭蹂대떎 湲� 寃쎌슦
+
+                var leftWidth = "";
+
+                if (win.width() < container.width()) {
+                    leftWidth = -(win.scrollLeft());
+                }
+
+                var winHeight = win.scrollTop() + win.height();
+                var bottomHeight = winHeight - (right.height() + margin);
+                bottomHeight = (bottomHeight > 0) ? bottomHeight : 0;
+
+                if (winHeight > left.height() + margin + 25) {
+                    left.css({left: leftWidth, position: 'fixed', bottom: bottomHeight + 'px'});
+                } else {
+                    left.css({left: 'auto', position: 'relative', bottom: 'auto'});
+                }
+
+                //right.css({position: 'relative', bottom: 'auto'});
+            }
+
+            function leftLong() {
+
+                var leftWidth = left.width();
+                var compareWidth = win.width() - container.width() + left.width();
+
+                if (compareWidth > left.width()) {
+                    leftWidth = leftWidth + 16 + (compareWidth - leftWidth) / 2;
+                } else {
+                    leftWidth = leftWidth + 16 - win.scrollLeft();
+                }
+
+                var winHeight = win.scrollTop() + win.height();
+                var bottomHeight = winHeight - (left.height() + margin);
+                bottomHeight = (bottomHeight > 0) ? bottomHeight : 0;
+
+                if (winHeight > right.height() + margin) {
+                    right.css({left: leftWidth, position: 'fixed', bottom: bottomHeight + 'px'});
+                } else {
+                    right.css({left: 'auto', position: 'relative', bottom: 'auto'});
+                }
+
+                //left.css({position: 'relative', bottom: 'auto'});
+            }
+
+            $(window).on("load scroll resize", function () {
+
+                if (left.height() < right.height()) {
+                    rightLong();
+                } else {
+                    leftLong();
+                }
+            });
+        });
+
+    </script>
+</div>
+<!-- for taboola 170905
+<script type="text/javascript">
+    window._taboola = window._taboola || [];
+    _taboola.push({flush: true});
+</script>
+// for taboola 170905 -->
+<script type="text/javascript">
+    $(function () {
+        
+        var Lazy = new Blazy({
+            //container: window,
+            breakpoints: false,
+            selector: '.lazy',
+            offset: 100,
+            loadInvisible: true,
+            src: 'data-src',
+            error: function (e, msg) {
+                if (msg === 'missing') {
+                    // Data-src is missing
+                    // console.log(1);
+                } else if (msg === 'invalid') {
+                    // Data-src is invalid
+                    // console.log(2);
+                }
+            },
+            success: function () {
+            }
+        });  // IE에서 잘됨 / 첫화면에 보이지 않는 이미지(슬라이드)는 재로딩 또는 loadInvisible 옵션 사용하기
+    });
+</script>
+<style>
+    .lazy {
+        -webkit-transition: opacity 700ms ease-in-out;
+        -moz-transition: opacity 700ms ease-in-out;
+        -o-transition: opacity 700ms ease-in-out;
+        transition: opacity 700ms ease-in-out;
+        max-width: 100%;
+        opacity: 0;
+    }
+
+    .lazy.b-loaded {
+        opacity: 1;
+    }
+</style>
+<script>
+    $(document).ready(function () {
+        $('#tab1_area .sec_2 ul li:nth-child(4)').addClass('last');
+        $('#tab2_area .sec_2 ul li:nth-child(5)').addClass('last');
+    });
+</script>
+</body>
+</html>
+<iframe id='newslog2_iframe' frameborder='0' scrolling='no' width='0' height='0' style='position:absolute;visibility:hidden;top:0px;left:0px;'></iframe>
+<script>
+(function(){
+	var guid=function() {
+		function s4() {return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1);}
+		return s4() + s4() + s4() + s4() + s4() + s4() + s4() + s4();
+	}
+	var getCookie=function(cname) {
+		var name = cname + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0; i<ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1);
+			if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+		}
+		return "";
+	}
+	var setCookie=function(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+d.toUTCString();
+		document.cookie = cname + "=" + cvalue + "; " + expires;
+	}
+	var params= "maeche=mbn&login_maeche=mbn&maeche_category=mbn00008&ustr=2022%2F4654838&pub_ymdhis=20211208090233&mk_pubdate=20211208090233&mk_page=10&";
+	var referrer='';var tmp=document.referrer.split('/');if(tmp.length>2) {referrer=tmp[2];}
+	var domain='';var tmp=document.location.href.split('/');if(tmp.length>2) {domain=tmp[2];}
+	var pathname=document.location.pathname; 
+	var login_id="";
+
+	var login_yn='y';
+	if(login_id=="") {
+		login_id=getCookie("tmpUserID");
+		login_yn='n';
+		if(login_id==""){
+			login_id=guid();
+			setCookie("tmpUserID", login_id, 365*100);
+		}
+	}
+    
+	var dumDate= new Date();
+	params+="referrer="+referrer+"&domain="+domain+"&pathname="+pathname+"&login_id="+login_id+"&login_yn="+login_yn+"&dummy="+dumDate.getTime();
+	document.getElementById("newslog2_iframe").src="//news.mk.co.kr/include/mkNewsLogIframe.php?"+params;
+})();
+</script>
